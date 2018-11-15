@@ -1,0 +1,114 @@
+header{
+  background-image: url('../img/bg/header.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-size: 14px;
+}
+header button{
+  width: 135px;
+  height: 30px;
+}
+header h2{
+  margin: 0;
+}
+header p{
+  margin: 0 !important;
+}
+nav{
+  height: 120px;
+}
+nav .row{
+  padding-top: 18px;
+}
+nav a{
+  text-transform: uppercase;
+  color: #092040;
+  font-size: 14px;
+}
+.aboutServices img{
+  float: left;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.blueBtn{
+  background-color: #009DFF;
+  color: #092040;
+  border: 0;
+}
+.card{
+  color: #fff !important;
+  border: 0;
+}
+.logIn {
+  float: left;
+  padding-right: 5px;
+}
+.mobileNav{
+  background-image: url('../img/bg/mobileNavBg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.navbar-toggler{
+  margin-left: 30px;
+}
+.phoneImg{
+  float: left;
+  padding-top: 7px;
+  padding-right: 10px;
+}
+.phoneNumbers{
+  padding-top: 10px
+}
+#aboutCompany{
+  background-image: url('../img/bg/sliderBg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+#firstCard{
+  background-image: url('../img/serviceImg/1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#secondCard{
+  background-image: url('../img/serviceImg/2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#thirdCard{
+  background-image: url('../img/serviceImg/3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#navbarNav{
+  padding-left: 19px;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  color: #092040 !important;
+  background-color: #2F9EE3;
+  text-align: center;
+}
+#navbarNav p{
+  margin: 0;
+}
+#navbarNav a{
+  color: #092040 !important;
+}
+@media (min-width: 992px){
+  #aboutCompany{
+    height: 400px;
+  }
+}
+@media (max-width: 992px){
+  #aboutCompany{
+    background-image: url('../img/bg/mobileNavBg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+  }
+}
