@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 header{
   background-image: url('../img/bg/header.png');
   background-repeat: no-repeat;
@@ -9,11 +12,25 @@ header button{
   width: 135px;
   height: 30px;
 }
-header h2{
+h2{
   margin: 0;
 }
 header p{
   margin: 0 !important;
+}
+footer{
+  background-image: url('../img/bg/footer.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-size: 14px;
+}
+footer a{
+  color: #fff;
+}
+footer a:hover{
+  color: #fff;
+  text-decoration: underline;
 }
 nav{
   height: 120px;
@@ -26,31 +43,75 @@ nav a{
   color: #092040;
   font-size: 14px;
 }
-section h2{
+section h3{
   text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.aboutServices{
+  margin-top: 70px;
+  padding-bottom: 70px;
 }
 .aboutServices img{
   float: left;
   padding-right: 10px;
   padding-bottom: 10px;
 }
+.headSliderarrows{
+  position: relative;
+}
+.commentSLiderarrows{
+  position: relative;
+  top: -300px;
+}
+.certificatesSliderarrows{
+  position: relative;
+  top: -150px
+}
+.partnersSliderarrows{
+  position: relative;
+  top: -110px;
+}
 .blueBtn{
   background-color: #2841BC;
-  color: #092040;
-  border: 0;
-}
-.lightBlueBtn{
-  background-color: #009DFF;
-  color: #092040;
+  color: #fff;
   border: 0;
 }
 .card{
   color: #fff !important;
   border: 0;
 }
+.commentSLider {
+  padding-bottom: 80px;
+}
+.footerImgs{
+  margin-bottom: 45px;
+}
+.footer-nav p{
+  margin: 0 !important;
+}
+.lastRow{
+  margin-top: 30px;
+  padding-bottom: 25px;
+}
+.lightBlueBtn{
+  background-color: #009DFF;
+  color: #092040;
+  border: 0;
+}
 .logIn {
   float: left;
   padding-right: 5px;
+}
+.logo{
+  background-image: url('../img/icons/logo.png');
+  background-repeat: no-repeat;
+  padding-bottom: 15px;
+}
+.mailImg{
+  float: left;
+  padding-top: 4px;
+  padding-right: 7px;
 }
 .mobileNav{
   background-image: url('../img/bg/mobileNavBg.png');
@@ -60,6 +121,20 @@ section h2{
 }
 .navbar-toggler{
   margin-left: 30px;
+}
+.partnersSlider img{
+  margin: auto;
+}
+.partnersSlider div{
+  height: 200px;
+}
+.personalInformation{
+  font-size: 12px;
+}
+.placemarkImg{
+  float: left;
+  padding-bottom: 10px;
+  padding-right: 7px;
 }
 .phoneImg{
   float: left;
@@ -75,15 +150,56 @@ section h2{
   background-size: cover;
   color: #fff;
 }
+#aboutCompany p{
+  font-size: 32px;
+}
 #comments{
-  background-color: #2F9EE3;
-
+  background-image: url('../img/bg/commentsBg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #comments .card{
   color: #092040 !important;
+  width: 320px;
 }
 #comments button{
   color: #fff;
+  width: 118px;
+  height: 32px;
+  position: relative;
+  left: 200px;
+  top: 30px;
+}
+#comments .slick-list{
+  height: 360px;
+}
+#consultation input{
+  margin-bottom: 16px;
+}
+#consultation textarea{
+  margin-bottom: 25px;
+}
+#consultation h3{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#consultation button{
+  width: 284px;
+  height: 44px;
+  margin-bottom: 30px;
+}
+#services button{
+  color: #fff;
+  width: 204px;
+  height: 47px;
+  cursor: pointer;
+}
+#services .card-text{
+  margin-bottom: 5em;
+}
+#services .card-title{
+  height: 60px;
+  font-size: 24px;
 }
 #firstCard{
   background-image: url('../img/serviceImg/1.png');
@@ -101,14 +217,13 @@ section h2{
   background-size: cover;
 }
 #navbarNav{
-  padding-left: 19px;
   position: absolute;
   top: 48px;
   left: 0;
   width: 100%;
   z-index: 10;
   color: #092040 !important;
-  background-color: #2F9EE3;
+  background-color: #bce1f6;
   text-align: center;
 }
 #navbarNav p{
@@ -117,9 +232,40 @@ section h2{
 #navbarNav a{
   color: #092040 !important;
 }
+#toTop {
+  width:100px;
+  padding:5px;
+  position:fixed;
+  bottom:40px;
+  right:10px;
+  cursor:pointer;
+  display:none;
+}
 @media (min-width: 992px){
+  footer .lightBlueBtn{
+    width: 146px;
+    height: 30px
+  }
+  footer .blueBtn{
+    width: 130px;
+    height: 30px
+  }
   #aboutCompany{
     height: 400px;
+  }
+  #consultation button{
+    width: 330px;
+    height: 44px;
+    margin-bottom: 30px;
+  }
+  #services .card{
+    width: 372px;
+    height: 386px;
+  }
+  #consultation{
+    background-image: url('../img/bg/consultation.png');
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 }
 @media (max-width: 992px){
@@ -128,5 +274,11 @@ section h2{
     background-repeat: no-repeat;
     background-size: cover;
     height: 350px;
+  }
+  #consultation{
+    background-color: #eaedfb;
+  }
+  #services .col-lg-4{
+    padding: 0;
   }
 }
