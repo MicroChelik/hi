@@ -24,7 +24,7 @@ footer{
   background-size: cover;
   color: #fff;
   font-size: 14px;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 footer a{
   color: #fff;
@@ -56,7 +56,10 @@ section h3{
 .aboutServices img{
   float: left;
   padding-right: 10px;
-  padding-bottom: 10px;
+  margin: auto;
+}
+.aboutServices p{
+  margin: auto !important;
 }
 .animated-modal .card{
   color: #111 !important;
@@ -115,6 +118,10 @@ section h3{
 .footer-nav p{
   margin: 0 !important;
 }
+.headSlider .lightBlueBtn{
+  width: 200px;
+  height: 47px;
+}
 .lastRow{
   margin-top: 30px;
   padding-bottom: 25px;
@@ -144,6 +151,161 @@ section h3{
   background-size: cover;
   color: #fff;
 }
+/*белые точки слайдера*/
+.my-dots {
+  position: absolute;
+  bottom: -200px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.my-dots li {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.my-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+
+.my-dots li button:hover,
+.my-dots li button:focus {
+  outline: none;
+}
+
+.my-dots li button:hover:before,
+.my-dots li button:focus:before {
+  opacity: 1;
+}
+
+.my-dots li button:before {
+  font-family: 'slick';
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: url('../img/icons/whiteDot.svg');
+  text-align: center;
+  opacity: .25;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   
+}
+
+.my-dots li.slick-active button:before {
+  opacity: .75;
+  color: black;
+}
+
+/*черыне точки слайдера*/
+.certificatesSlider .my-dotsDark {
+  position: absolute;
+  bottom: -60px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+.partnersSlider .my-dotsDark {
+  position: absolute;
+  bottom: -25px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.my-dotsDark {
+  position: absolute;
+  bottom: 20px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.my-dotsDark li {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.my-dotsDark li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+
+.my-dotsDark li button:hover,
+.my-dotsDark li button:focus {
+  outline: none;
+}
+
+.my-dotsDark li button:hover:before,
+.my-dotsDark li button:focus:before {
+  opacity: 1;
+}
+
+.my-dotsDark li button:before {
+  font-family: 'slick';
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: url('../img/icons/dot.svg');
+  text-align: center;
+  opacity: .25;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   
+}
+
+.my-dotsDark li.slick-active button:before {
+  opacity: .75;
+  color: black;
+}
+
 .navbar-toggler{
   margin-left: 30px;
 }
@@ -187,17 +349,18 @@ section h3{
   background-repeat: no-repeat;
   background-size: cover;
 }
-#comments .card{
-  color: #092040 !important;
-  width: 320px;
-}
-#comments button{
+#comments .blueBtn{
   color: #fff;
   width: 118px;
   height: 32px;
   position: relative;
   left: 200px;
   top: 30px;
+}
+#comments .card{
+  color: #092040 !important;
+  width: 320px;
+  margin: auto;
 }
 #comments .slick-list{
   height: 360px;
@@ -224,7 +387,7 @@ section h3{
   cursor: pointer;
 }
 #services .card-text{
-  margin-bottom: 5em;
+  margin-bottom: 4em;
 }
 #services .card-title{
   height: 60px;
@@ -282,6 +445,19 @@ section h3{
   .fancybox-content{
     width: 40%
   }
+  .headSliderarrows{
+    top: -250px;
+  }
+  .my-dots{
+    bottom: 15px;
+  }
+  .headSlider .lightBlueBtn{
+    margin-bottom: 20px;
+  }
+  .headSlider .row{
+    height: 400px;
+    padding-left: 60px;
+  }
   #aboutCompany{
     height: 400px;
   }
@@ -289,6 +465,9 @@ section h3{
     width: 330px;
     height: 44px;
     margin-bottom: 30px;
+  }
+  #certificates{
+    padding-bottom: 50px;
   }
   #services .card{
     width: 372px;
@@ -304,8 +483,26 @@ section h3{
   .aboutServices p{
     margin-bottom: 40px;
   }
+  .aboutServicesCol{
+    margin-bottom: 40px;
+  }
   .cardBtn{
     text-align: center;
+  }
+  .headSlider .row{
+    height: 350px;
+  }
+  .headSlider .col-lg-9{
+    padding-left: 40px;
+    padding-right: 50px;
+  }
+  .headSlider .lightBlueBtn{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+  }
+  .my-dots{
+    bottom: 15px;
   }
   .mobileFooter{
     text-align: center;
@@ -322,8 +519,17 @@ section h3{
     width: 180px;
     height: 40px;
   }
+  .mobileLogo{
+    background-image: url('../img/icons/logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
   .mobileNavFooter{
     margin-bottom: 1rem;
+  }
+  .nav-item-first{
+    padding-top: 0;
+    margin-top: 1rem;
   }
   #aboutCompany{
     background-image: url('../img/bg/mobileNavBg.png');
@@ -331,8 +537,8 @@ section h3{
     background-size: cover;
     height: 350px;
   }
-  #comments .card{
-    margin: auto;
+  #aboutCompany p{
+    font-size: 18px;
   }
   #consultation{
     background-color: #eaedfb;
@@ -340,10 +546,19 @@ section h3{
   #consultation button{
     text-align: center;
   }
+  #certificates{
+    padding-bottom: 40px;
+  }
+  #partners{
+    padding-bottom: 40px;
+  }
   #services .card{
     margin-bottom: 15px;
   }
   #services .col-lg-4{
     padding: 0;
   }
-}
+  #toTop{
+    right: -50px;
+  }
+4
