@@ -24,6 +24,7 @@ footer{
   background-size: cover;
   color: #fff;
   font-size: 14px;
+  padding-top: 20px;
 }
 footer a{
   color: #fff;
@@ -57,12 +58,18 @@ section h3{
   padding-right: 10px;
   padding-bottom: 10px;
 }
+.animated-modal .card{
+  color: #111 !important;
+}
 .headSliderarrows{
   position: relative;
 }
 .commentSLiderarrows{
   position: relative;
   top: -300px;
+}
+.certificatesSlider img{
+  margin: auto;
 }
 .certificatesSliderarrows{
   position: relative;
@@ -81,11 +88,29 @@ section h3{
   color: #fff !important;
   border: 0;
 }
+.callReceptionText{
+  margin-left: 30px;
+}
 .commentSLider {
   padding-bottom: 80px;
 }
 .footerImgs{
   margin-bottom: 45px;
+}
+.fancybox-button svg {
+  color: #fff;
+  margin-left: auto;
+  width: 20%
+}
+.fancybox-content{
+  padding: 0;
+}
+.fancybox-content button{
+  width: 210px;
+  height: 45px;
+}
+.fancybox-content .card{
+    border: 0;
 }
 .footer-nav p{
   margin: 0 !important;
@@ -121,6 +146,10 @@ section h3{
 }
 .navbar-toggler{
   margin-left: 30px;
+}
+.overlayFix{
+  max-height: 100px;
+  color: #fff;
 }
 .partnersSlider img{
   margin: auto;
@@ -250,6 +279,9 @@ section h3{
     width: 130px;
     height: 30px
   }
+  .fancybox-content{
+    width: 40%
+  }
   #aboutCompany{
     height: 400px;
   }
@@ -269,14 +301,47 @@ section h3{
   }
 }
 @media (max-width: 992px){
+  .aboutServices p{
+    margin-bottom: 40px;
+  }
+  .cardBtn{
+    text-align: center;
+  }
+  .mobileFooter{
+    text-align: center;
+  }
+  .mobileFooter .blueBtn{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 180px;
+    height: 40px;
+  }
+  .mobileFooter .lightBlueBtn{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 180px;
+    height: 40px;
+  }
+  .mobileNavFooter{
+    margin-bottom: 1rem;
+  }
   #aboutCompany{
     background-image: url('../img/bg/mobileNavBg.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 350px;
   }
+  #comments .card{
+    margin: auto;
+  }
   #consultation{
     background-color: #eaedfb;
+  }
+  #consultation button{
+    text-align: center;
+  }
+  #services .card{
+    margin-bottom: 15px;
   }
   #services .col-lg-4{
     padding: 0;

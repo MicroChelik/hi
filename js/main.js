@@ -1,39 +1,19 @@
 $(document).ready(function() {		
 	
-	
-	// function windowSizeMobile(){
- //    	if ($(window).width() <= '768'){
- //    		$('.partnersSlider').slick('unslick');
- //        	$('.partnersSlider').slick({
- //    		    infinite: true,
- //    		    slidesToShow: 1,
- //    		    slidesToScroll: 1,
- //    		    prevArrow: '.prev3',
- //        		nextArrow: '.next3'
- //  		    });
- //  		    $('.certificatesSlider').slick({
- //    		    infinite: true,
- //    		    slidesToShow: 1,
- //    		    slidesToScroll: 1,
- //    		    prevArrow: '.prev2',
- //        		nextArrow: '.next2'
- //  		    });
- //    	} 
- //    }
- //    function windowSize(){
- //    	if ($(window).width() > '768'){
- //    		$('.partnersSlider').slick({
-	// 			infinite: true,
-	// 			slidesToShow: 4,
-	// 			slidesToScroll: 1,
-	// 			prevArrow: '.prev3',
-	// 			nextArrow: '.next3'
-	// 		});
- //    	}
- //    }
-
-	// $(window).on('load resize',windowSizeMobile);
-	// $(window).on('load resize',windowSize);
+   	function windowSize(){
+    	if ($(window).width() <= '960'){
+    		$('.certificatesSlider').slick({
+			    infinite: true,
+			    slidesToShow: 1,
+			    slidesToScroll: 1,
+			    prevArrow: '.prev3',
+				nextArrow: '.next3'
+			});
+    	} else {
+    		$('.advantagesSlider').slick('unslick');
+    	}
+    }
+    $(window).on('load resize',windowSize);
 
 
   	$('.headSlider').slick({
@@ -48,21 +28,38 @@ $(document).ready(function() {
 		slidesToShow: 3,
 		slidesToScroll: 1,
 		prevArrow: '.prev2',
-		nextArrow: '.next2'
+		nextArrow: '.next2',
+		responsive: [
+			{
+				breakpoint: 960,
+				settings: {
+					infinite: true,
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					prevArrow: '.prev2',
+					nextArrow: '.next2'
+				}
+			}
+		]
 	});
 	$('.partnersSlider').slick({
-		infinite: true,
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		prevArrow: '.prev4',
-		nextArrow: '.next4'
-	});
-	$('.certificatesSlider').slick({
 	    infinite: true,
-	    slidesToShow: 1,
+	    slidesToShow: 4,
 	    slidesToScroll: 1,
-	    prevArrow: '.prev3',
-		nextArrow: '.next3'
+	    prevArrow: '.prev4',
+		nextArrow: '.next4',
+	    responsive: [
+			{
+				breakpoint: 960,
+				settings: {
+					infinite: true,
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					prevArrow: '.prev4',
+					nextArrow: '.next4'
+				}
+			}
+		]
 	});
   	
 	$(function() {
@@ -102,15 +99,6 @@ $(document).ready(function() {
 
 
 
-
-	// $('#toggle').click(function () {
-	// 	$('#toggle').toggleClass('on');
-	// 	if($('#toggle').hasClass('on')){
-	// 		$('#aboutCompany').stop().fadeOut(50);
-	// 	} else {
-	// 		$('#aboutCompany').fadeIn(2000);
-	// 	}
-	// })
 
 
 
