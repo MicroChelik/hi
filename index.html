@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src='https://www.google.com/recaptcha/api.js'></script>
 	<title>Хай-Тандем</title>
 </head>
 <body>
@@ -47,12 +48,12 @@
 									<div class="col-12 form-group">
 										<input type="number" class="form-control" name="phoneNumber" placeholder="Контактный номер телефона *" required>
 									</div>
-									<div class="col-6">Здесь будет капча</div>						
-									<div class="col-6">
+									<div class="col-lg-6 col-12 captchaDiv"><div class="g-recaptcha captcha" data-sitekey="6Ldo2nsUAAAAAHtVQzC6Wlif4QzFftZHGoaq0EK7"></div></div>						
+									<div class="col-lg-6 col-12">
 										<p class="personalInformation">Нажимая на кнопку, вы даете свое согласие на обработку<br class="d-none d-lg-block">персональных данных. <a href="" target="blank" rel="noopener noreferrer">Узнать больше</a></p>
 									</div>
-									<div class="col-12">
-										<button type="submit" class="blueBtn">Отправить</button>
+									<div class="col-12 d-lg-block d-flex">
+										<button type="submit" class="blueBtn mx-auto">Отправить</button>
 									</div>
 								</div>
 							</form>
@@ -134,7 +135,7 @@
 	 					</li>
 			 		</ul>
 			 		<hr>
-				 	<div class="row">
+				 	<div class="row w-100">
 				 		<div class="col-6 mobileNavFooter">
 				 			<p>+7 (912) 853 29 40<br>+7 (912) 444 87 29</p>
 				 		</div>
@@ -258,7 +259,7 @@
 				</div>
 			</div>
 			<div class="row commentSLider">
-				<div>
+				<div class="col-4">
 					<div class="card">
 						<div class="card-body">
 							<span>06.08.2018</span>
@@ -268,7 +269,7 @@
 						</div>
 					</div>
 				</div>
-				<div>
+				<div class="col-4">
 					<div class="card">
 						<div class="card-body">
 							<span>06.08.2018</span>
@@ -278,7 +279,7 @@
 						</div>
 					</div>
 				</div>
-				<div>
+				<div class="col-4">
 					<div class="card">
 						<div class="card-body">
 							<span>06.08.2018</span>
@@ -288,7 +289,7 @@
 						</div>
 					</div>
 				</div>
-				<div>
+				<div class="col-4">
 					<div class="card">
 						<div class="card-body">
 							<span>06.08.2018</span>
@@ -298,7 +299,7 @@
 						</div>
 					</div>
 				</div>
-				<div>
+				<div class="col-4">
 					<div class="card">
 						<div class="card-body">
 							<span>06.08.2018</span>
@@ -357,15 +358,18 @@
 								<input type="text" class="form-control" placeholder="Ваше имя*">
 								<input type="email" class="form-control" placeholder="Ваш email*">
 								<input type="number" class="form-control" placeholder="Ваш номер телефона*">
-								<div>ЗДЕСЬ БУДЕТ РЕКАПЧА</div>
 							</div>
 							<div class="col-lg-6">
 								<textarea class="form-control" rows="3" placeholder='Ваш комментарий*'></textarea>
 								<p class="personalInformation">Нажимая на кнопку, вы даете свое согласие на обработку персональных данных.  <a href="">Узнать больше</a></p>
-								<div class="d-lg-block d-flex">
+								
+							</div>
+							<div class="col-lg-6 col-12">
+									<div class="g-recaptcha captcha" data-sitekey="6Ldo2nsUAAAAAHtVQzC6Wlif4QzFftZHGoaq0EK7"></div>
+								</div>
+								<div class="col-lg-6 d-flex">
 									<button class="blueBtn mx-auto" type="submit">Отправить</button>
 								</div>
-							</div>
 						</div>
 					</form>
 				</div>
@@ -375,6 +379,11 @@
 	</section>
 	<section id="partners">
 		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h3>Наши партнеры</h3>
+				</div>
+			</div>
 			<div class="row partnersSlider justify-content-center align-items-center">
 				<div class="col-3 d-flex"><img src="img/partners/1.png"></div>
 				<div class="col-3 d-flex"><img src="img/partners/2.png"></div>
@@ -431,12 +440,12 @@
 										<div class="col-12 form-group">
 											<textarea class="form-control" name="text" rows="3" placeholder="Ваш комментарий *"></textarea>
 										</div>
-										<div class="col-6">Здесь будет капча</div>						
-										<div class="col-6">
+										<div class="col-lg-6 col-12 captchaDiv"><div class="g-recaptcha captcha" data-sitekey="6Ldo2nsUAAAAAHtVQzC6Wlif4QzFftZHGoaq0EK7"></div></div>						
+										<div class="col-lg-6 col-12">
 											<p class="personalInformation">Нажимая на кнопку, вы даете свое согласие на обработку<br class="d-none d-lg-block">персональных данных. <a href="" target="blank" rel="noopener noreferrer">Узнать больше</a></p>
 										</div>
-										<div class="col-12">
-											<button type="submit" class="blueBtn">Отправить</button>
+										<div class="col-12 d-lg-block d-flex">
+											<button type="submit" class="blueBtn mx-auto">Отправить</button>
 										</div>
 									</div>
 								</form>

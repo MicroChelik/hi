@@ -1,5 +1,39 @@
+@font-face{
+
+font-family: 'NotoSerif';
+
+font-display: auto;
+
+src: url('../css/fonts/NotoSerif-Regular.woff');
+
+src: url('../css/fonts/NotoSerif-Regular') format('woff');
+
+font-weight: normal;
+
+font-style: normal;
+
+}
+
+@font-face{
+
+font-family: 'NotoSerifItalic';
+
+font-display: auto;
+
+src: url('../css/fonts/NotoSerif-Italic.woff');
+
+src: url('../css/fonts/NotoSerif-Italic.woff') format('woff');
+
+font-weight: normal;
+
+font-style: normal;
+
+}
 html {
   scroll-behavior: smooth;
+}
+body{
+  font-family: 'NotoSerif';
 }
 header{
   background-image: url('../img/bg/header.png');
@@ -222,7 +256,7 @@ section h3{
 /*черыне точки слайдера*/
 .certificatesSlider .my-dotsDark {
   position: absolute;
-  bottom: -60px;
+  bottom: -75px;
   display: block;
   width: 100%;
   padding: 0;
@@ -307,7 +341,7 @@ section h3{
 }
 
 .navbar-toggler{
-  margin-left: 30px;
+  margin-left: 10px;
 }
 .overlayFix{
   max-height: 100px;
@@ -359,17 +393,21 @@ section h3{
 }
 #comments .card{
   color: #092040 !important;
-  width: 320px;
+  max-width: 320px;
   margin: auto;
+}
+#comments .card-text{
+  font-family: 'NotoSerifItalic';
+  font-size: 14px;
 }
 #comments .slick-list{
   height: 360px;
 }
 #consultation input{
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }
 #consultation textarea{
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 #consultation h3{
   padding-top: 30px;
@@ -442,21 +480,36 @@ section h3{
     width: 130px;
     height: 30px
   }
+  nav .col-auto:hover{
+  	border-bottom: 3px solid #2F9EE3;
+  }
+  nav a:hover{
+  	text-decoration: none;
+  }
+  .consultationCaptchaDiv{
+    display: flex !important;
+  }
   .fancybox-content{
     width: 40%
   }
+  .fancybox-content .captchaDiv{
+    margin-bottom: 10px;
+  }
   .headSliderarrows{
-    top: -250px;
+    top: -210px;
   }
   .my-dots{
-    bottom: 15px;
+    bottom: -25px;
   }
   .headSlider .lightBlueBtn{
     margin-bottom: 20px;
   }
   .headSlider .row{
-    height: 400px;
+    height: 370px;
     padding-left: 60px;
+  }
+  .partnersSlider .my-dotsDark {
+    bottom: -35px;
   }
   #aboutCompany{
     height: 400px;
@@ -464,10 +517,24 @@ section h3{
   #consultation button{
     width: 330px;
     height: 44px;
-    margin-bottom: 30px;
+    margin: auto;
+  }
+  #consultation .row{
+  	margin-bottom: 46px;
   }
   #certificates{
     padding-bottom: 50px;
+  }
+  #services .card-text{
+  	margin-bottom: 0;
+  	height: 200px;
+  }
+  #partners{
+    padding-bottom: 15px;
+  }
+  #partners h3{
+  	padding-bottom: 0;
+  	padding-top: 25px;
   }
   #services .card{
     width: 372px;
@@ -480,13 +547,28 @@ section h3{
   }
 }
 @media (max-width: 992px){
+	section h3{
+  	  text-align: center;
+  	  padding-top: 34px;
+  	  padding-bottom: 34px;
+	}
   .aboutServices p{
     margin-bottom: 40px;
   }
   .aboutServicesCol{
     margin-bottom: 40px;
   }
+  .captchaDiv{
+    padding: 0;
+  }
+  .captcha{
+    width: 304px;
+    margin: auto;
+  }
   .cardBtn{
+    text-align: center;
+  }
+  .fancybox-content p{
     text-align: center;
   }
   .headSlider .row{
@@ -507,6 +589,12 @@ section h3{
   .mobileFooter{
     text-align: center;
   }
+  .mobileFooter .logo{
+	padding-bottom: 0; 
+    background-size: contain;
+    width: 212px;
+    margin: auto;
+  }
   .mobileFooter .blueBtn{
     margin-top: 10px;
     margin-bottom: 20px;
@@ -522,6 +610,7 @@ section h3{
   .mobileLogo{
     background-image: url('../img/icons/logo.png');
     background-repeat: no-repeat;
+    background-size: contain;
     background-size: contain;
   }
   .mobileNavFooter{
@@ -540,17 +629,30 @@ section h3{
   #aboutCompany p{
     font-size: 18px;
   }
+  #callBackModal .card-img-top{
+    height: 110px;
+  }
   #consultation{
     background-color: #eaedfb;
   }
   #consultation button{
     text-align: center;
   }
+  #consultation .captcha{
+    margin-bottom: 16px;
+  }
+  #comments .blueBtn{
+    left: 182px;
+  }
   #certificates{
-    padding-bottom: 40px;
+    padding-bottom: 80px;
   }
   #partners{
     padding-bottom: 40px;
+  }
+  #partners h3{
+  	padding-bottom: 0;
+  	padding-top: 15px;
   }
   #services .card{
     margin-bottom: 15px;
@@ -561,4 +663,35 @@ section h3{
   #toTop{
     right: -50px;
   }
-4
+  #writeUsModal .card-img-top{
+    height: 70px;
+  }
+}
+@media (max-width: 350px){
+  #comments .slick-list {
+      height: 350px;
+  }
+  #comments .blueBtn {
+    left: 42px;
+  }
+}
+@media (max-width: 310px){
+  #comments .slick-list {
+      height: 380px;
+  }
+}
+@media (max-width: 290px){
+  #comments .slick-list {
+      height: 400px;
+  }
+}
+@media (max-width: 270px){
+  #comments .slick-list {
+      height: 420px;
+  }
+}
+@media (max-width: 240px){
+  #comments .slick-list {
+      height: 470px;
+  }
+}
