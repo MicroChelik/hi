@@ -185,6 +185,9 @@ section h3{
   background-size: cover;
   color: #fff;
 }
+.mobileNavFooterPhoneNumber{
+  min-width: 127px;
+}
 /*белые точки слайдера*/
 .my-dots {
   position: absolute;
@@ -403,17 +406,17 @@ section h3{
 #comments .slick-list{
   height: 360px;
 }
-#consultation input{
+.consultation input{
   margin-bottom: 10px;
 }
-#consultation textarea{
+.consultation textarea{
   margin-bottom: 10px;
 }
-#consultation h3{
+.consultation h3{
   padding-top: 30px;
   padding-bottom: 30px;
 }
-#consultation button{
+.consultation button{
   width: 284px;
   height: 44px;
   margin-bottom: 30px;
@@ -514,12 +517,12 @@ section h3{
   #aboutCompany{
     height: 400px;
   }
-  #consultation button{
+  .consultation button{
     width: 330px;
     height: 44px;
     margin: auto;
   }
-  #consultation .row{
+  .consultation .row{
   	margin-bottom: 46px;
   }
   #certificates{
@@ -540,18 +543,137 @@ section h3{
     width: 372px;
     height: 386px;
   }
-  #consultation{
+  .consultation{
     background-image: url('../img/bg/consultation.png');
     background-repeat: no-repeat;
     background-size: contain;
   }
 }
+/*aboutCompany*/
+.arrowAfterBLock:after {
+  content: '';
+  position: absolute;
+  border: 21px solid transparent;
+  border-left: 19px solid #2841BC;
+  right: -15px;
+  z-index: 2;
+  display: block;
+  top: 51px;
+}
+.scheme{
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.scheme p{
+  margin: auto;
+  font-size: 16px;
+}
+.scheme .schemeText{
+  border: 1px solid #2841BC;
+}
+.scheme .schemeNumber{
+  background-color: #2841BC;
+  color: #fff;
+  font-size: 96px;
+}
+.textBg{
+  background-image: url('../img/otherPages/aboutCompany/bg/textBg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 405px;
+  color: #fff;
+  line-height: 46px;
+  font-size: 32px;
+}
+/*services*/
+#servicesPage .aboutServices{
+  display: none;
+}
+#servicesPage .consultation{
+  background-image: none;
+}
+#servicesFirstRow{
+  background-image: url('../img/otherPages/services/bg/textBg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-size: 32px;
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+#servicesFirstRow button{
+  color: #fff;
+  font-size: 16px;
+  width: 270px;
+  height: 52px;
+}
+/*news*/
+#news h3{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#news h5{
+  font-size: 14px;
+  color: #092040;
+}
+#news .card-text{
+  font-size: 12px;
+  color: rgba(9, 32, 64, 0.5);
+}
+#news .cardTagA{
+  color: #092040;
+}
+/*thisNewsPage*/
+.aboutNews{
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+#thisNewsPage .newsTitle{
+  font-size: 24px;
+  color: #092040;
+  margin-bottom: 30px;
+}
+#thisNewsPage .newsText{
+  color: #092040;
+}
+/*servicePages*/
+.servicePage .arrowAfterBLock:after{
+  right: -25px !important;
+  top: 93px !important;
+}
+.servicePage .servicesCards{
+  display: none;
+}
+.servicePage .scheme{
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+.servicePage .schemeNumber{
+  height: 96px;
+}
+.schemeNumber p{
+  font-size: 72px;
+  margin: auto;
+}
+.servicePage .schemeText{
+  height: 110px;
+}
+.servicePage .consultation{
+  margin-top: 40px;
+  background-image: none;
+  background: rgba(0, 157, 255, 0.1);
+}
+.servicePage .consultation .row{
+    margin-bottom: 0 !important;
+    padding-bottom: 30px;
+}
+/**/
 @media (max-width: 992px){
-	section h3{
-  	  text-align: center;
-  	  padding-top: 34px;
-  	  padding-bottom: 34px;
-	}
+  section h3{
+      text-align: center;
+      padding-top: 34px;
+      padding-bottom: 34px;
+  }
   .aboutServices p{
     margin-bottom: 40px;
   }
@@ -590,7 +712,7 @@ section h3{
     text-align: center;
   }
   .mobileFooter .logo{
-	padding-bottom: 0; 
+  padding-bottom: 0; 
     background-size: contain;
     width: 212px;
     margin: auto;
@@ -632,13 +754,13 @@ section h3{
   #callBackModal .card-img-top{
     height: 110px;
   }
-  #consultation{
+  .consultation{
     background-color: #eaedfb;
   }
-  #consultation button{
+  .consultation button{
     text-align: center;
   }
-  #consultation .captcha{
+  .consultation .captcha{
     margin-bottom: 16px;
   }
   #comments .blueBtn{
@@ -651,8 +773,8 @@ section h3{
     padding-bottom: 40px;
   }
   #partners h3{
-  	padding-bottom: 0;
-  	padding-top: 15px;
+    padding-bottom: 0;
+    padding-top: 15px;
   }
   #services .card{
     margin-bottom: 15px;
@@ -665,6 +787,24 @@ section h3{
   }
   #writeUsModal .card-img-top{
     height: 70px;
+  }
+}
+@media (min-width: 350px) and (max-width: 500px) {
+  .aboutServices p{
+  	width: 300px !important;
+  	margin-left: 0 !important;
+  }
+  .aboutServices img{
+  	margin-right: 0 !important;
+  }
+}
+@media (min-width: 500px) and (max-width: 1000px) {
+  .aboutServices p{
+  	width: 400px !important;
+  	margin-left: 0 !important;
+  }
+  .aboutServices img{
+  	margin-right: 0 !important;
   }
 }
 @media (max-width: 350px){
