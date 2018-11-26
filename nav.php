@@ -69,13 +69,13 @@
 					<a href="newsPage.php">Новости</a>
 				</div>
 				<div class="col-auto">
-					<a href="question.php">Вопрос-ответ</a>
+					<a href="q-a.php">Вопрос-ответ</a>
 				</div>
 				<div class="col-auto">
-					<a href="#comments">Отзывы</a>
+					<a href="commentsPage.php">Отзывы</a>
 				</div>
 				<div class="col-auto">
-					<a href="#contacts">Контакты</a>
+					<a href="contactsPage.php">Контакты</a>
 				</div>
 			</div>
 		</div>

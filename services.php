@@ -36,7 +36,7 @@
 							<h5 class="card-title">Учебный центр</h5>
 							<p class="card-text">Имеется спорная точка зрения, гласящая примерно следующее: реплицированные с зарубежных источников, современные исследования лишь добавляют фракционных разногласий и призваны к ответу. </p>
 							<div class="cardBtn">
-								<a href="thirdServicePage.php">
+								<a href="educationСenterPage.php">
 									<button class="lightBlueBtn">Подробнее</button>
 								</a>
 							</div>

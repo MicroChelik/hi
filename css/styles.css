@@ -34,6 +34,7 @@ html {
 }
 body{
   font-family: 'NotoSerif';
+  color: #092040;
 }
 header{
   background-image: url('../img/bg/header.png');
@@ -584,6 +585,7 @@ section h3{
   color: #fff;
   line-height: 46px;
   font-size: 32px;
+  margin-bottom: 1rem;
 }
 /*services*/
 #servicesPage .aboutServices{
@@ -647,6 +649,7 @@ section h3{
 .servicePage .scheme{
   padding-left: 15px !important;
   padding-right: 15px !important;
+  text-align: center;
 }
 .servicePage .schemeNumber{
   height: 96px;
@@ -658,6 +661,9 @@ section h3{
 .servicePage .schemeText{
   height: 110px;
 }
+.servicePage .consultation a{
+  color: #2841BC; 
+}
 .servicePage .consultation{
   margin-top: 40px;
   background-image: none;
@@ -667,6 +673,111 @@ section h3{
     margin-bottom: 0 !important;
     padding-bottom: 30px;
 }
+/*educationСenterPage*/
+#educationСenterPage ul{
+  margin-top: 1rem;
+}
+.requestMenuTop{
+  background-color: #2841BC;
+  color: #fff !important;
+  width: 100%;
+  height: 50px;
+}
+.requestMenu{
+  border: 1px solid rgba(40, 65, 188, 0.2);
+  font-size: 14px;
+}
+#educationСenterPage .card{
+  border: 1px solid rgba(40, 65, 188, 0.2);
+  margin-bottom: 1rem;
+}
+#educationСenterPage .card .blueBtn{
+  width: 100%;
+  height: 40px;
+}
+#educationСenterPage .card-text{
+  color: #092040 !important;
+}
+#educationСenterPage .price{
+  font-size: 24px;
+}
+#educationСenterPage .trainingPeriod{
+  color: rgba(9, 32, 64, 0.5) !important;
+  font-size: 14px;
+}
+/*thisEducationProgramm*/
+#thisEducationProgramm #comments{
+  margin-top: 40px;
+}
+#contactsPage .card,
+#thisEducationProgramm .card{
+  background: rgba(0, 157, 255, 0.05);
+  color: #092040 !important;
+  border: 1px solid rgba(40, 65, 188, 0.2);
+}
+#thisEducationProgramm .card .blueBtn{
+  margin-top: 20px;
+  width: 80%;
+  height: 44px;
+}
+#thisEducationProgramm .card-top{
+  background-color: #2841BC;
+  color: #fff !important;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+}
+#thisEducationProgramm .cardTitle{
+  font-size: 24px;
+}
+#contactsPage .form-control,
+#thisEducationProgramm .form-control{
+  margin-bottom: 1rem;
+  background: rgba(0, 157, 255, 0.05);
+}
+#thisEducationProgramm .greyText{
+  color: rgba(9, 32, 64, 0.5);
+}
+#thisEducationProgramm .price{
+  font-size: 48px;
+}
+#thisEducationProgramm .priceLowerCase{
+  font-size: 18px;
+}
+/*q-a*/
+#q-a .card{
+  color: #092040 !important;
+  margin-bottom: 1rem;
+  background: rgba(0, 157, 255, 0.05);
+}
+#q-a .card-body{
+  font-size: 14px;
+}
+#q-a .card-header{
+  cursor: pointer;
+}
+.accordionImg{
+  margin: auto;
+  padding-right: 25px;
+  cursor: pointer;
+}
+/*contactsPage*/
+#contactsPage .card .blueBtn{
+  margin-top: 20px;
+  width: 60%;
+  height: 44px;
+}
+.contactsInfo span{
+  color: rgba(9, 32, 64, 0.5); 
+}
+.contactsInfo{
+  font-size: 14px;
+}
+.contactsRow{
+  padding-bottom: 100px;
+}
+/*commentsPage*/
+
 /**/
 @media (max-width: 992px){
   section h3{

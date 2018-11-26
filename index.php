@@ -62,75 +62,9 @@
 	<?php
 		include('services.php');
 	?>
-	<section id="comments">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<h3>Отзывы</h3>
-				</div>
-			</div>
-			<div class="row commentSLider">
-				<div class="col-4">
-					<div class="card">
-						<div class="card-body">
-							<span>06.08.2018</span>
-							<h5 class="card-title"><img src="">ООО “Электрон”</h5>
-							<p class="card-text">Заказывал резину через интернет, в наличии не оказалось, но уже через день ее привезли в мой город. Не часто встретишь такую оперативную работу с клиентами. Заказывал резину через интернет, в наличии не оказалось, но уже через день ее привезли в мой город.</p>
-							<button class="blueBtn">Подробнее</button>
-						</div>
-					</div>
-				</div>
-				<div class="col-4">
-					<div class="card">
-						<div class="card-body">
-							<span>06.08.2018</span>
-							<h5 class="card-title"><img src="">ООО “Электрон”</h5>
-							<p class="card-text">Заказывал резину через интернет, в наличии не оказалось, но уже через день ее привезли в мой город. Не часто встретишь такую оперативную работу с клиентами. Заказывал резину через интернет, в наличии не оказалось, но уже через день ее привезли в мой город.</p>
-							<button class="blueBtn">Подробнее</button>
-						</div>
-					</div>
-				</div>
-				<div class="col-4">
-					<div class="card">
-						<div class="card-body">
-							<span>06.08.2018</span>
-							<h5 class="card-title"><img src="">ООО “Электрон”</h5>
-							<p class="card-text">Заказывал резину через интернет, в наличии не оказалось, но уже через день ее привезли в мой город. Не часто встретишь такую оперативную работу с клиентами. Заказывал резину через интернет, в наличии не оказалось, но уже через день ее привезли в мой город.</p>
-							<button class="blueBtn">Подробнее</button>
-						</div>
-					</div>
-				</div>
-				<div class="col-4">
-					<div class="card">
-						<div class="card-body">
-							<span>06.08.2018</span>
-							<h5 class="card-title"><img src="">ООО “Электрон”</h5>
-							<p class="card-text">Заказывал резину через интернет, в наличии не оказалось, но уже через день ее привезли в мой город. Не часто встретишь такую оперативную работу с клиентами. Заказывал резину через интернет, в наличии не оказалось, но уже через день ее привезли в мой город.</p>
-							<button class="blueBtn">Подробнее</button>
-						</div>
-					</div>
-				</div>
-				<div class="col-4">
-					<div class="card">
-						<div class="card-body">
-							<span>06.08.2018</span>
-							<h5 class="card-title"><img src="">ООО “Электрон”</h5>
-							<p class="card-text">Заказывал резину через интернет, в наличии не оказалось, но уже через день ее привезли в мой город. Не часто встретишь такую оперативную работу с клиентами. Заказывал резину через интернет, в наличии не оказалось, но уже через день ее привезли в мой город.</p>
-							<button class="blueBtn">Подробнее</button>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row justify-content-between commentSLiderarrows d-lg-flex d-none">
-				<div class="col-auto">
-					<img src="img/icons/left.png" class="prev2" alt="назад">
-				</div>
-				<div class="col-auto">
-					<img src="img/icons/right.png" class="next2" alt="вперед">
-				</div>
-			</div>
-		</div>
-	</section>
+	<?php
+		include('comments.php')
+	?>
 	<section id="certificates">
 		<div class="container">
 			<div class="row">
@@ -188,31 +122,9 @@
 		</div>
 		<hr>
 	</section>
-	<section id="partners">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<h3>Наши партнеры</h3>
-				</div>
-			</div>
-			<div class="row partnersSlider justify-content-center align-items-center">
-				<div class="col-3 d-flex"><img src="img/partners/1.png"></div>
-				<div class="col-3 d-flex"><img src="img/partners/2.png"></div>
-				<div class="col-3 d-flex"><img src="img/partners/3.png"></div>
-				<div class="col-3 d-flex"><img src="img/partners/4.png"></div>
-				<div class="col-3 d-flex"><img src="img/partners/4.png"></div>
-				<div class="col-3 d-flex"><img src="img/partners/4.png"></div>
-			</div>
-			<div class="row justify-content-between partnersSliderarrows d-lg-flex d-none">
-				<div class="col-auto">
-					<img src="img/icons/left.png" class="prev4" alt="назад">
-				</div>
-				<div class="col-auto">
-					<img src="img/icons/right.png" class="next4" alt="вперед">
-				</div>
-			</div>
-		</div>
-	</section>
+	<?php
+		include('partners.php');
+	?>
 	<?php
 		include('footer.php');
 	?>
