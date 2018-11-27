@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
 	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+	<link rel="shortcut icon" href="/img/icons/favicon.png" type="image/png">
 	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
@@ -11,14 +12,14 @@
 	<script src='https://www.google.com/recaptcha/api.js'></script>
 	<title>Хай-Тандем</title>
 </head>
-<body id="aboutConmpany">
+<body id="aboutConmpanyPage">
 	<?php
 		include('nav.php');
 	?>
 	<div class="container">
 		<div class="row">
 			<div class="col-12 textBg d-flex align-items-center">
-				<div class="col-7 offset-1 d-flex">
+				<div class="col-lg-7 col-12 offset-lg-1 d-flex">
 					<p>Предприятие образовано в 2015 году, но уже сейчас постоянно обслуживает свыше 100 предприятий на территории России.</p>
 				</div>
 			</div>
@@ -60,8 +61,8 @@
 				<div class="col-12">
 					<h3>Схема работы</h3>
 				</div>
-				<div class="col-12 schemes d-flex">
-					<div class="col-4 d-flex scheme arrowAfterBLock">
+				<div class="col-12 schemes d-lg-flex">
+					<div class="col-lg-4 col-12 d-flex scheme arrowAfterBLock">
 						<div class="col-3 schemeNumber">
 							1
 						</div>
@@ -69,7 +70,7 @@
 							<p>Закажите услугу, связавшись по телефону или оформив заявку на нашем сайте</p>
 						</div>
 					</div>
-					<div class="col-4 d-flex scheme arrowAfterBLock">
+					<div class="col-lg-4 col-12 d-flex scheme arrowAfterBLock">
 						<div class="col-3 schemeNumber">
 							2
 						</div>
@@ -77,7 +78,7 @@
 							<p>Мы выставляем счет на оплату</p>
 						</div>
 					</div>
-					<div class="col-4 d-flex scheme">
+					<div class="col-lg-4 col-12 d-flex scheme">
 						<div class="col-3 schemeNumber">
 							3
 						</div>

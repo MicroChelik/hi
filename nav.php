@@ -26,13 +26,13 @@
 							<h2>ОБРАТНЫЙ ЗВОНОК</h2>
 						</div>
 						<div class="card-body">
-							<form action = "javascript: void(null);" method="post" id="callMeFormWithoutEmail">
+							<form action = "javascript: void(null);" method="post" id="">
 								<div class="row px-15">
 									<div class="col-12 form-group">
 										<input type="text" class="form-control" name="name" placeholder="Ваше имя *" required>
 									</div>
 									<div class="col-12 form-group">
-										<input type="number" class="form-control" name="phoneNumber" placeholder="Контактный номер телефона *" required>
+										<input type="number" class="form-control" name="phoneNumber" placeholder="Ваш номер телефона *" required>
 									</div>
 									<div class="col-lg-6 col-12 captchaDiv"><div class="g-recaptcha captcha" data-sitekey="6Ldo2nsUAAAAAHtVQzC6Wlif4QzFftZHGoaq0EK7"></div></div>						
 									<div class="col-lg-6 col-12">
@@ -46,9 +46,38 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-1">
-					<img src="img/icons/logIn.png" class="logIn">
-					<p>Вход</p>
+				<div class="col-lg-1 logInDiv">
+					<a data-fancybox data-animation-duration="700" data-src="#logInModal" href="javascript:;">
+						<img src="img/icons/logIn.png" class="logIn">
+						<p>Вход</p>
+					</a>
+				</div>
+				<div style="display: none;" id="logInModal" class="animated-modal">
+					<div class="card">
+						<img class="card-img-top" src="img/bg/footer.png" alt="Card image cap">
+						<div class="card-img-overlay overlayFix">
+							<h2>ВХОД</h2>
+						</div>
+						<div class="card-body">
+							<form action = "javascript: void(null);" method="post" id="">
+								<div class="row px-15">
+									<div class="col-12 form-group">
+										<input type="text" class="form-control" name="name" placeholder="Ваше имя *" required>
+									</div>
+									<div class="col-12 form-group">
+										<input type="number" class="form-control" name="phoneNumber" placeholder="Ваш номер телефона *" required>
+									</div>
+									<div class="col-lg-6 col-12 captchaDiv"><div class="g-recaptcha captcha" data-sitekey="6Ldo2nsUAAAAAHtVQzC6Wlif4QzFftZHGoaq0EK7"></div></div>						
+									<div class="col-lg-6 col-12">
+										<p class="personalInformation">Нажимая на кнопку, вы даете свое согласие на обработку<br class="d-none d-lg-block">персональных данных. <a href="" target="blank" rel="noopener noreferrer">Узнать больше</a></p>
+									</div>
+									<div class="col-12 d-lg-block d-flex">
+										<button type="submit" class="blueBtn mx-auto">Отправить</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -89,35 +118,37 @@
 				<button class="navbar-toggler d-lg-none d-inline-block" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		   			<span class="navbar-toggler-icon" id="toggle"><img src="img/icons/burger.png"></span>
 			  	</button>
-			  	<div>
-			  		<img src="img/icons/logIn.png">
-			  		<span>Вход</span>
+			  	<div class="logInDiv">
+			  		<a data-fancybox data-animation-duration="700" data-src="#logInModal" href="javascript:;">
+			  			<img src="img/icons/logIn.png">
+			  			<span>Вход</span>
+			  		</a>
 			  	</div>
 			 	<div class="collapse navbar-collapse" id="navbarNav">
 			 		<ul class="navbar-nav">
 			 			<li class="nav-item nav-item-first">
-	 						<a class="nav-link" href="#"><p>Главная</p><span class="sr-only">(current)</span></a>
+	 						<a class="nav-link" href="index.php"><p>Главная</p><span class="sr-only">(current)</span></a>
 	 					</li>
 	 					<li class="nav-item">
-	 						<a class="nav-link" href="#aboutCompany""><p>О компании</p></a>
+	 						<a class="nav-link" href="aboutCompanyPage.php""><p>О компании</p></a>
 	 					</li>
 	 					<li class="nav-item">
-	 						<a class="nav-link" href="#services"><p>Услуги</p></a>
+	 						<a class="nav-link" href="servicesPage.php"><p>Услуги</p></a>
 	 					</li>
 	 					<li class="nav-item">
-	 						<a class="nav-link" href="#"><p>Новости</p></a>
+	 						<a class="nav-link" href="newsPage.php"><p>Новости</p></a>
 	 					</li>
 	 					<li class="nav-item">
-	 						<a class="nav-link" href="#"><p>Вопрос-ответ</p></a>
+	 						<a class="nav-link" href="q-a.php"><p>Вопрос-ответ</p></a>
 	 					</li>
 	 					<li class="nav-item">
-	 						<a class="nav-link" href="#comments"><p>Отзывы</p></a>
+	 						<a class="nav-link" href="commentsPage.php"><p>Отзывы</p></a>
 	 					</li>
 	 					<li class="nav-item">
-	 						<a class="nav-link" href="#contacts"><p>Контакты</p></a>
+	 						<a class="nav-link" href="contactsPage.php"><p>Контакты</p></a>
 	 					</li>
 	 					<li class="nav-item">
-	 						<a class="nav-link" href="#"><p>Личный кабинет</p></a>
+	 						<a class="nav-link" href="accountPage.php"><p>Личный кабинет</p></a>
 	 					</li>
 			 		</ul>
 			 		<hr>

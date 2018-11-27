@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
 	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+	<link rel="shortcut icon" href="/img/icons/favicon.png" type="image/png">
 	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
@@ -17,8 +18,8 @@
 	?>
 	<div class="container">
 		<div class="row">
-			<div class="col-12">
-				<img src="img/otherPages/news/postImg/1.png">
+			<div class="col-12 topImg">
+				<img src="img/otherPages/news/postImg/1.png" class="w-100">
 			</div>
 			<div class="col-12">
 				<h3>Во Владивостоке обнаружен мощный источник радиации</h3>

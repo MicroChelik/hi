@@ -28,10 +28,10 @@
 											<input type="text" class="form-control" name="name" placeholder="Ваше имя *" required>
 										</div>
 										<div class="col-12 form-group">
-											<input type="number" class="form-control" name="phoneNumber" placeholder="Контактный номер телефона *" required>
+											<input type="number" class="form-control" name="phoneNumber" placeholder="Ваш номер телефона *" required>
 										</div>
 										<div class="col-12 form-group">
-											<input type="email" class="form-control" name="name" placeholder="Ваш Email *" required>
+											<input type="email" class="form-control" name="email" placeholder="Ваш Email *" required>
 										</div>
 										<div class="col-12 form-group">
 											<textarea class="form-control" name="text" rows="3" placeholder="Ваш комментарий *"></textarea>
@@ -53,28 +53,28 @@
 					<p>МЕНЮ</p>
 					<ul class="navbar-nav footer-nav">
 				 		<li class="nav-item">
-		 					<a class="" href="#aboutOctaspring"><p>Главная</p><span class="sr-only">(current)</span></a>
+		 					<a class="" href="index.php"><p>Главная</p><span class="sr-only">(current)</span></a>
 		 				</li>
 		 				<li class="nav-item">
-		 					<a class="" href="#aboutOctaspring"><p>О компании</p></a>
+		 					<a class="" href="aboutCompanyPage.php"><p>О компании</p></a>
 		 				</li>
 		 				<li class="nav-item">
-		 					<a class="" href="#aboutOctaspring"><p>Услуги</p></a>
+		 					<a class="" href="servicesPage.php"><p>Услуги</p></a>
 		 				</li>
 		 				<li class="nav-item">
-		 					<a class="" href="#aboutOctaspring"><p>Новости</p></a>
+		 					<a class="" href="newsPage.php"><p>Новости</p></a>
 		 				</li>
 		 				<li class="nav-item">
-		 					<a class="" href="#aboutOctaspring"><p>Вопрос-ответ</p></a>
+		 					<a class="" href="q-a.php"><p>Вопрос-ответ</p></a>
 		 				</li>
 		 				<li class="nav-item">
-		 					<a class="" href="#aboutOctaspring"><p>Отзывы</p></a>
+		 					<a class="" href="commentsPage.php"><p>Отзывы</p></a>
 		 				</li>
 		 				<li class="nav-item">
-		 					<a class="" href="#aboutOctaspring"><p>Контакты</p></a>
+		 					<a class="" href="contactsPage.php"><p>Контакты</p></a>
 		 				</li>
 		 				<li class="nav-item">
-		 					<a class="" href="#aboutOctaspring"><p>Личный кабинет</p></a>
+		 					<a class="" href="accountPage.php"><p>Личный кабинет</p></a>
 		 				</li>
 				 	</ul>
 				</div>
@@ -92,6 +92,9 @@
 					<p>haidarov_f@mail.ru</p>
 					<a data-fancybox data-animation-duration="700" data-src="#callBackModal" href="javascript:;">
 						<button class="lightBlueBtn">Обратный звонок</button>
+					</a>
+					<a href="https://xn--18-mlcudogpr0i.xn--p1ai/" target="blank" rel="noopener noreferrer">
+						<img src="img/electronLogo.png" class="electronLogo">
 					</a>
 				</div>
 			</div>
@@ -129,6 +132,9 @@
 					</a>
 					<p><a href="">Политика конфиденциальности</a></p>
 					<p>© 2014 Авторские права</p>
+					<a href="https://xn--18-mlcudogpr0i.xn--p1ai/" target="blank" rel="noopener noreferrer">
+						<img src="img/electronLogo.png" class="electronLogo">
+					</a>
 				</div>
 			</div>
 		</div>

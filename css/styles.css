@@ -132,6 +132,9 @@ section h3{
 .commentSLider {
   padding-bottom: 80px;
 }
+.electronLogo{
+  margin-top: 1rem;
+}
 .footerImgs{
   margin-bottom: 45px;
 }
@@ -158,7 +161,6 @@ section h3{
   height: 47px;
 }
 .lastRow{
-  margin-top: 30px;
   padding-bottom: 25px;
 }
 .lightBlueBtn{
@@ -169,6 +171,9 @@ section h3{
 .logIn {
   float: left;
   padding-right: 5px;
+}
+.logInDiv a{
+  color: #fff;
 }
 .logo{
   background-image: url('../img/icons/logo.png');
@@ -185,6 +190,7 @@ section h3{
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
+  padding-bottom: 2px;
 }
 .mobileNavFooterPhoneNumber{
   min-width: 127px;
@@ -387,6 +393,7 @@ section h3{
   background-repeat: no-repeat;
   background-size: cover;
 }
+#thisEducationProgramm #comments .blueBtn,
 #comments .blueBtn{
   color: #fff;
   width: 118px;
@@ -395,6 +402,7 @@ section h3{
   left: 200px;
   top: 30px;
 }
+#thisEducationProgramm #comments .card,
 #comments .card{
   color: #092040 !important;
   max-width: 320px;
@@ -710,7 +718,7 @@ section h3{
   margin-top: 40px;
 }
 #contactsPage .card,
-#thisEducationProgramm .card{
+#thisEducationProgramm .castomCard{
   background: rgba(0, 157, 255, 0.05);
   color: #092040 !important;
   border: 1px solid rgba(40, 65, 188, 0.2);
@@ -777,7 +785,26 @@ section h3{
   padding-bottom: 100px;
 }
 /*commentsPage*/
-
+#commentsPage #sendComment{
+  width: 90%;
+  height: 44px;
+  margin-bottom: 30px;
+}
+.comment{
+  margin-bottom: 50px;
+  font-size: 14px;
+}
+.commentData{
+  margin-bottom: 10px;
+}
+.companyInfo{
+  margin-bottom: 1rem;
+}
+.companyInfo p{
+  margin-bottom: auto;
+  margin-top: auto;
+  padding-left: 15px;
+}
 /**/
 @media (max-width: 992px){
   section h3{
@@ -800,6 +827,10 @@ section h3{
   }
   .cardBtn{
     text-align: center;
+  }
+  .electronLogo{
+    margin-top: 0;
+    margin-bottom: 1rem;
   }
   .fancybox-content p{
     text-align: center;
@@ -898,6 +929,76 @@ section h3{
   }
   #writeUsModal .card-img-top{
     height: 70px;
+  }
+  /*pages*/
+  #aboutConmpanyPage .scheme{
+    margin-bottom: 2rem;
+  }
+  #aboutConmpanyPage .arrowAfterBLock:after {
+    content: '';
+    position: absolute;
+    border: 21px solid transparent;
+    border-top: 19px solid #2841BC;
+    right: 130px;
+    z-index: 2;
+    display: block;
+    top: 144px;
+  }
+
+  #servicesFirstRow{
+    padding-top: 15px;
+    padding-bottom: 25px;
+  }
+  .topImg{
+    padding: 0;
+    margin-bottom: 1rem;
+  }
+
+  .servicePage .scheme{
+    margin-bottom: 2rem;
+  }
+  .servicePage .arrowAfterBLock:after {
+    content: '';
+    position: absolute;
+    border: 21px solid transparent;
+    border-top: 19px solid #2841BC;
+    right: 13px;
+    z-index: 2;
+    display: block;
+    top: 14px;
+    margin-right: 50%;
+    margin-top: 34%;
+  }
+
+  #educationСenterPage .requestMenuTopDiv{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  #news .topImg{
+    margin-bottom: 0;
+  }
+  .aboutNews{
+    margin: 0;
+  }
+
+  #commentsPage #sendComment {
+    width: 100%;
+    height: 44px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+
+  .map{
+    padding: 0;
+    margin-top: 1rem;
+  }
+  .contactsRow{
+    padding: 0;
+  }
+  .contactsImg{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
   }
 }
 @media (min-width: 350px) and (max-width: 500px) {

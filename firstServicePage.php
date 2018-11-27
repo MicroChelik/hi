@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
 	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+	<link rel="shortcut icon" href="/img/icons/favicon.png" type="image/png">
 	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
@@ -17,10 +18,10 @@
 	?>
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-7">
+			<div class="col-lg-7 col-12 topImg">
 				<img src="img/otherPages/services/servicePageImg/1.png" class="w-100">
 			</div>
-			<div class="col-lg-5">
+			<div class="col-lg-5 col-12">
 				<h3 class="newsTitle">Радиационный контроль</h3>
 				<p class="newsText">
 					Имеется спорная точка зрения, гласящая примерно следующее: реплицированные с зарубежных источников, современные исследования лишь добавляют фракционных разногласий и призваны к ответу. Не следует, однако, забывать.
@@ -48,8 +49,8 @@
 				<div class="col-12">
 					<h3>Схема работы</h3>
 				</div>
-				<div class="col-12 schemes d-flex">
-					<div class="col-3 scheme arrowAfterBLock">
+				<div class="col-12 schemes d-lg-flex">
+					<div class="col-lg-3 col-12 scheme arrowAfterBLock">
 						<div class="col-12 d-flex schemeNumber">
 							<p>1</p>
 						</div>
@@ -57,7 +58,7 @@
 							<p>Оставляете заявку на сайте или по телефону</p>
 						</div>
 					</div>
-					<div class="col-3 scheme arrowAfterBLock">
+					<div class="col-lg-3 col-12 scheme arrowAfterBLock">
 						<div class="col-12 d-flex schemeNumber">
 							<p>2</p>
 						</div>
@@ -65,7 +66,7 @@
 							<p>Обсуждаем объем работы. Выставляем счет</p>
 						</div>
 					</div>
-					<div class="col-3 scheme arrowAfterBLock">
+					<div class="col-lg-3 col-12 scheme arrowAfterBLock">
 						<div class="col-12 d-flex schemeNumber">
 							<p>3</p>
 						</div>
@@ -73,7 +74,7 @@
 							<p>После оплаты наш специалист выезжает и проводит радиационное исследование</p>
 						</div>
 					</div>
-					<div class="col-3 scheme">
+					<div class="col-lg-3 col-12 scheme">
 						<div class="col-12 d-flex schemeNumber">
 							<p>4</p>
 						</div>

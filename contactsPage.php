@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
 	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+	<link rel="shortcut icon" href="/img/icons/favicon.png" type="image/png">
 	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
@@ -20,7 +21,7 @@
 			<div class="col-lg-5">
 				<div class="row contactsInfo">
 					<div class="col-12">
-						<div class="d-flex footerImgs">
+						<div class="d-flex footerImgs contactsImg">
 							<img src="img/icons/1.png">
 							<img src="img/icons/2.png">
 							<img src="img/icons/3.png">

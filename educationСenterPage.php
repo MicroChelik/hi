@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
 	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+	<link rel="shortcut icon" href="/img/icons/favicon.png" type="image/png">
 	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
@@ -17,7 +18,7 @@
 	?>
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-3">
+			<div class="col-lg-3 col-12">
 				<div class="card">
 					<div class="card-body">
 						<p class="card-text">
@@ -35,7 +36,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3">
+			<div class="col-lg-3 col-12">
 				<div class="card">
 					<div class="card-body">
 						<p class="card-text">
@@ -53,7 +54,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3">
+			<div class="col-lg-3 col-12">
 				<div class="card">
 					<div class="card-body">
 						<p class="card-text">
@@ -71,7 +72,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3">
+			<div class="col-lg-3 col-12 order-first order-lg-0 requestMenuTopDiv">
 				<div class="requestMenuTop d-flex"><p class="m-auto">Образцы заявок на обучение</p></div>
 				<div class="requestMenu">
 					<ul class="">
@@ -84,7 +85,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="col-lg-3">
+			<div class="col-lg-3 col-12">
 				<div class="card">
 					<div class="card-body">
 						<p class="card-text">
@@ -102,7 +103,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3">
+			<div class="col-lg-3 col-12">
 				<div class="card">
 					<div class="card-body">
 						<p class="card-text">
@@ -120,7 +121,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3">
+			<div class="col-lg-3 col-12">
 				<div class="card">
 					<div class="card-body">
 						<p class="card-text">
@@ -138,9 +139,9 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3">
+			<div class="col-lg-3 d-lg-block d-none">
 			</div>
-			<div class="col-lg-3">
+			<div class="col-lg-3 col-12">
 				<div class="card">
 					<div class="card-body">
 						<p class="card-text">
@@ -158,7 +159,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3">
+			<div class="col-lg-3 col-12">
 				<div class="card">
 					<div class="card-body">
 						<p class="card-text">
@@ -176,7 +177,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3">
+			<div class="col-lg-3 col-12">
 				<div class="card">
 					<div class="card-body">
 						<p class="card-text">
@@ -194,7 +195,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3">
+			<div class="col-lg-3 d-lg-block d-none">
 			</div>
 		</div>
 	</div>
@@ -216,8 +217,8 @@
 				<div class="col-12">
 					<h3>Схема работы</h3>
 				</div>
-				<div class="col-12 schemes d-flex">
-					<div class="col-3 scheme arrowAfterBLock">
+				<div class="col-12 schemes d-lg-flex">
+					<div class="col-lg-3 col-12 scheme arrowAfterBLock">
 						<div class="col-12 d-flex schemeNumber">
 							<p>1</p>
 						</div>
@@ -225,7 +226,7 @@
 							<p>Вы подаете заявку на бланке</p>
 						</div>
 					</div>
-					<div class="col-3 scheme arrowAfterBLock">
+					<div class="col-lg-3 col-12 scheme arrowAfterBLock">
 						<div class="col-12 d-flex schemeNumber">
 							<p>2</p>
 						</div>
@@ -233,7 +234,7 @@
 							<p>Оплачиваете выбранную программу обучения</p>
 						</div>
 					</div>
-					<div class="col-3 scheme arrowAfterBLock">
+					<div class="col-lg-3 col-12 scheme arrowAfterBLock">
 						<div class="col-12 d-flex schemeNumber">
 							<p>3</p>
 						</div>
@@ -241,7 +242,7 @@
 							<p>Получаете доступ к курсу</p>
 						</div>
 					</div>
-					<div class="col-3 scheme">
+					<div class="col-lg-3 col-12 scheme">
 						<div class="col-12 d-flex schemeNumber">
 							<p>4</p>
 						</div>

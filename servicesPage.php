@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
 	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+	<link rel="shortcut icon" href="/img/icons/favicon.png" type="image/png">
 	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
@@ -18,7 +19,7 @@
 	<section id="servicesFirstRow">
 		<div class="container">
 			<div class="row">
-				<div class="col-9 offset-1">
+				<div class="col-lg-9 offset-lg-1 col-12">
 					<p>
 						ООО "Хай-Тандем"- имеет собственный Учебный центр и Лабораторию радиационного контроля. Присоединяйтесь как Партнер или Заказчик, мы будем рады общению с Вами!
 					</p>
