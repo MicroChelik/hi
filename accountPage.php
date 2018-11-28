@@ -15,7 +15,190 @@
 	<?php
 		include('nav.php');
 	?>
-
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-9">
+				<div class="row">
+					<div class="col-12">
+						<div class="d-flex accountMenu">
+							<div class="accountMenuItem active">
+								<p>Доступные программы</p> 
+							</div>
+							<div class="accountMenuItem">
+								<p>Профиль</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row availableProgramms">
+					<div class="col-lg-4">
+						<div class="card">
+							<div class="card-body">
+								<p class="card-title">Название программы в две строчки</p>
+								<p class="card-text">Срок обучения: <span class="blueText">8 часов</span></p>
+								<p class="card-text">Кол-во вопросов в тесте: <span class="blueText">80 вопросов</span></p>
+								<button class="programmBtn">Пройти программу</button>
+								<button class="blueBtn">Пройти тест</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="card">
+							<div class="card-body">
+								<p class="card-title">Название программы в две строчки</p>
+								<p class="card-text">Срок обучения: <span class="blueText">8 часов</span></p>
+								<p class="card-text">Кол-во вопросов в тесте: <span class="blueText">80 вопросов</span></p>
+								<button class="programmBtn">Пройти программу</button>
+								<button class="blueBtn">Пройти тест</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="card">
+							<div class="card-body">
+								<p class="card-title">Название программы в две строчки</p>
+								<p class="card-text">Срок обучения: <span class="blueText">8 часов</span></p>
+								<p class="card-text">Кол-во вопросов в тесте: <span class="blueText">80 вопросов</span></p>
+								<button class="programmBtn">Пройти программу</button>
+								<button class="blueBtn">Пройти тест</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row programms">
+					<div class="col-lg-4 col-12">
+						<div class="card">
+							<div class="card-body">
+								<p class="card-text">
+									Имеется спорная точка зрения, гласящая примерно следующее: реплицированные с зарубежных источников, современные исследования лишь добавляют фракционных разногласий и призваны к ответу. 
+								</p>
+								<p class="card-text trainingPeriod">
+									Срок обучения: 8 часов
+								</p>
+								<p class="card-text price"> 
+									5 000 руб.
+								</p>
+								<a href="thisEducationProgramm.php">
+									<button class="blueBtn">Заказать</button>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-12">
+						<div class="card">
+							<div class="card-body">
+								<p class="card-text">
+									Имеется спорная точка зрения, гласящая примерно следующее: реплицированные с зарубежных источников, современные исследования лишь добавляют фракционных разногласий и призваны к ответу. 
+								</p>
+								<p class="card-text trainingPeriod">
+									Срок обучения: 8 часов
+								</p>
+								<p class="card-text price"> 
+									5 000 руб.
+								</p>
+								<a href="thisEducationProgramm.php">
+									<button class="blueBtn">Заказать</button>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-12">
+						<div class="card">
+							<div class="card-body">
+								<p class="card-text">
+									Имеется спорная точка зрения, гласящая примерно следующее: реплицированные с зарубежных источников, современные исследования лишь добавляют фракционных разногласий и призваны к ответу. 
+								</p>
+								<p class="card-text trainingPeriod">
+									Срок обучения: 8 часов
+								</p>
+								<p class="card-text price"> 
+									5 000 руб.
+								</p>
+								<a href="thisEducationProgramm.php">
+									<button class="blueBtn">Заказать</button>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-12">
+						<div class="card">
+							<div class="card-body">
+								<p class="card-text">
+									Имеется спорная точка зрения, гласящая примерно следующее: реплицированные с зарубежных источников, современные исследования лишь добавляют фракционных разногласий и призваны к ответу. 
+								</p>
+								<p class="card-text trainingPeriod">
+									Срок обучения: 8 часов
+								</p>
+								<p class="card-text price"> 
+									5 000 руб.
+								</p>
+								<a href="thisEducationProgramm.php">
+									<button class="blueBtn">Заказать</button>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-12">
+						<div class="card">
+							<div class="card-body">
+								<p class="card-text">
+									Имеется спорная точка зрения, гласящая примерно следующее: реплицированные с зарубежных источников, современные исследования лишь добавляют фракционных разногласий и призваны к ответу. 
+								</p>
+								<p class="card-text trainingPeriod">
+									Срок обучения: 8 часов
+								</p>
+								<p class="card-text price"> 
+									5 000 руб.
+								</p>
+								<a href="thisEducationProgramm.php">
+									<button class="blueBtn">Заказать</button>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-12">
+						<div class="card">
+							<div class="card-body">
+								<p class="card-text">
+									Имеется спорная точка зрения, гласящая примерно следующее: реплицированные с зарубежных источников, современные исследования лишь добавляют фракционных разногласий и призваны к ответу. 
+								</p>
+								<p class="card-text trainingPeriod">
+									Срок обучения: 8 часов
+								</p>
+								<p class="card-text price"> 
+									5 000 руб.
+								</p>
+								<a href="thisEducationProgramm.php">
+									<button class="blueBtn">Заказать</button>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-12">
+						<div class="card">
+							<div class="card-body">
+								<p class="card-text">
+									Имеется спорная точка зрения, гласящая примерно следующее: реплицированные с зарубежных источников, современные исследования лишь добавляют фракционных разногласий и призваны к ответу. 
+								</p>
+								<p class="card-text trainingPeriod">
+									Срок обучения: 8 часов
+								</p>
+								<p class="card-text price"> 
+									5 000 руб.
+								</p>
+								<a href="thisEducationProgramm.php">
+									<button class="blueBtn">Заказать</button>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3">
+				
+			</div>
+		</div>
+	</div>
 	<?php
 		include('footer.php');
 	?>

@@ -805,6 +805,61 @@ section h3{
   margin-top: auto;
   padding-left: 15px;
 }
+/*accountPage*/
+#accountPage .card{
+  color: #092040 !important;
+  border: 1px solid rgba(40, 65, 188, 0.2);
+  margin-bottom: 1rem;
+}
+#accountPage .card button{
+  height: 40px;
+  width: 100%
+}
+#accountPage .card-title{
+  font-size: 18px;
+}
+#accountPage .card-text{
+  font-size: 12px;
+}
+.accountMenu{
+  margin-bottom: 50px;
+}
+.accountMenuItem{
+  display: flex;
+  height: 62px;
+  border: 1px solid #2841BC;
+  color: #2841BC;
+  width: 330px;
+}
+.accountMenuItem p{
+  margin: auto;
+  font-size: 24px;
+}
+.accountMenu .active{
+  background-color: #2841BC;
+  color: #fff;
+}
+.programms .card .card-text{
+  font-size: 16px !important;
+}
+.programms .trainingPeriod{
+  font-size: 14px !important;
+  color: rgba(9, 32, 64, 0.5);
+}
+.programms .card .price{
+  font-size: 24px !important;
+  color: #092040;
+}
+.blueText{
+  color: #2841BC;
+}
+.programmBtn{
+  border: 1px solid #009DFF;
+  font-size: 14px;
+  color: #009DFF;
+  margin-bottom: 1rem;
+  background-color: #fff;
+}
 /**/
 @media (max-width: 992px){
   section h3{
