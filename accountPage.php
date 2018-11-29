@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
 	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+	<link rel="shortcut icon" href="/img/icons/favicon.png" type="image/png">
 	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
@@ -16,7 +17,7 @@
 		include('nav.php');
 	?>
 	<div class="container">
-		<div class="row">
+		<div class="row accountPageRow">
 			<div class="col-lg-9">
 				<div class="row">
 					<div class="col-12">
@@ -37,7 +38,9 @@
 								<p class="card-title">Название программы в две строчки</p>
 								<p class="card-text">Срок обучения: <span class="blueText">8 часов</span></p>
 								<p class="card-text">Кол-во вопросов в тесте: <span class="blueText">80 вопросов</span></p>
-								<button class="programmBtn">Пройти программу</button>
+								<a href="thisProgrammPage.php">
+									<button class="programmBtn">Пройти программу</button>
+								</a>
 								<button class="blueBtn">Пройти тест</button>
 							</div>
 						</div>
@@ -48,7 +51,9 @@
 								<p class="card-title">Название программы в две строчки</p>
 								<p class="card-text">Срок обучения: <span class="blueText">8 часов</span></p>
 								<p class="card-text">Кол-во вопросов в тесте: <span class="blueText">80 вопросов</span></p>
-								<button class="programmBtn">Пройти программу</button>
+								<a href="thisProgrammPage.php">
+									<button class="programmBtn">Пройти программу</button>
+								</a>
 								<button class="blueBtn">Пройти тест</button>
 							</div>
 						</div>
@@ -59,13 +64,18 @@
 								<p class="card-title">Название программы в две строчки</p>
 								<p class="card-text">Срок обучения: <span class="blueText">8 часов</span></p>
 								<p class="card-text">Кол-во вопросов в тесте: <span class="blueText">80 вопросов</span></p>
-								<button class="programmBtn">Пройти программу</button>
+								<a href="thisProgrammPage.php">
+									<button class="programmBtn">Пройти программу</button>
+								</a>
 								<button class="blueBtn">Пройти тест</button>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="row programms">
+					<div class="col-12">
+						<p class="ProgrammsTitle">Возможные программы</p>
+					</div>
 					<div class="col-lg-4 col-12">
 						<div class="card">
 							<div class="card-body">
@@ -195,7 +205,34 @@
 				</div>
 			</div>
 			<div class="col-lg-3">
-				
+				<div class="row">
+					<div class="col-12 testsMenu">
+						<div class="testsMenuTitle">
+							<p>Пройденые тесты<br><span>за последний месяц</span></p>
+						</div>
+						<div class="testMenuItem">
+							<p>Название программы<br>в две строчки</p>
+						</div>
+						<div class="testMenuItem testmenuItemBlue">
+							<p>Название программы<br>в две строчки</p>
+						</div>
+						<div class="testMenuItem testmenuItemBlue">
+							<p>Название программы<br>в две строчки</p>
+						</div>
+						<div class="testMenuItem">
+							<p>Название программы<br>в две строчки</p>
+						</div>
+						<div class="testMenuItem">
+							<p>Название программы<br>в две строчки</p>
+						</div>
+						<div class="testMenuItem testmenuItemBlue">
+							<p>Название программы<br>в две строчки</p>
+						</div>
+						<div class="testMenuItem testmenuItemBlue">
+							<p>Название программы<br>в две строчки</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
