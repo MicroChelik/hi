@@ -16,6 +16,14 @@
 	<?php
 		include('nav.php');
 	?>
+	<div aria-label="breadcrumb" class="breadcrumbNav">
+		<div class="container px-0">
+			<ol class="breadcrumb pl-0">
+		    	<li class="breadcrumb-item"><a href="index.php">Главная</a></li>
+	    		<li class="breadcrumb-item active" aria-current="page">Услуги</li>
+		 	</ol>
+		</div>
+	</div>
 	<section id="servicesFirstRow">
 		<div class="container">
 			<div class="row">
@@ -47,7 +55,7 @@
 								<textarea class="form-control" rows="3" placeholder='Ваш комментарий*'></textarea>
 								<p class="personalInformation">Нажимая на кнопку, вы даете свое согласие на обработку персональных данных.  <a href="">Узнать больше</a></p>
 							</div>
-							<div class="col-lg-6 col-12">
+							<div class="col-lg-6 col-12 recaptcha-wrapper">
 									<div class="g-recaptcha captcha" data-sitekey="6Ldo2nsUAAAAAHtVQzC6Wlif4QzFftZHGoaq0EK7"></div>
 								</div>
 								<div class="col-lg-6 d-flex">

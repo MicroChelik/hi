@@ -12,7 +12,7 @@
 	<script src='https://www.google.com/recaptcha/api.js'></script>
 	<title>Хай-Тандем</title>
 </head>
-<body>	
+<body id="mainPage">	
 	<?php
 		include('nav.php');
 	?>
@@ -110,12 +110,12 @@
 								<p class="personalInformation">Нажимая на кнопку, вы даете свое согласие на обработку персональных данных.  <a href="">Узнать больше</a></p>
 								
 							</div>
-							<div class="col-lg-6 col-12">
+							<div class="col-lg-6 col-12 recaptcha-wrapper">
 									<div class="g-recaptcha captcha" data-sitekey="6Ldo2nsUAAAAAHtVQzC6Wlif4QzFftZHGoaq0EK7"></div>
-								</div>
-								<div class="col-lg-6 d-flex">
-									<button class="blueBtn mx-auto" type="submit">Отправить</button>
-								</div>
+							</div>
+							<div class="col-lg-6 d-flex">
+								<button class="blueBtn mx-auto" type="submit">Отправить</button>
+							</div>
 						</div>
 					</form>
 				</div>

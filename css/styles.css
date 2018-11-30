@@ -33,7 +33,7 @@ html {
   scroll-behavior: smooth;
 }
 body{
-  font-family: 'NotoSerif';
+  font-family: 'NotoSerif' !important;
   color: #092040;
 }
 button{
@@ -72,7 +72,7 @@ footer a:hover{
   text-decoration: underline;
 }
 nav{
-  height: 120px;
+  height: 60px;
 }
 nav .row{
   padding-top: 18px;
@@ -124,6 +124,25 @@ section h3{
   background-color: #2841BC;
   color: #fff;
   border: 0;
+}
+.breadcrumb {
+  background-color: #fff;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+  content: ">";
+}
+.breadcrumbLiPre{
+  white-space: pre;
+}
+.breadcrumbNav{
+  height: 65px;
+}
+.breadcrumb a{
+  text-transform: none;
+  color: rgba(9, 32, 64, 0.5) !important;
+}
+.breadcrumb li{
+  color: rgba(9, 32, 64, 0.5) !important;
 }
 .card{
   color: #fff !important;
@@ -561,6 +580,10 @@ section h3{
     background-size: contain;
   }
 }
+/*index.php*/
+#mainPage nav{
+  height: 120px;
+}
 /*aboutCompany*/
 .arrowAfterBLock:after {
   content: '';
@@ -824,6 +847,24 @@ section h3{
 #accountPage .card-text{
   font-size: 12px;
 }
+#availableProgramms,
+#profile{
+  cursor: pointer;
+}
+.accountInputs input{
+  height: 55px !important;
+  background-image: url(../img/otherPages/accountPage/inputIcon.png);   
+  background-repeat: no-repeat; /*Убираем повтор изображения*/   
+  background-position: 435px; /*Позиционируем*/   
+  outline: none; /*убираем стандартную обводку браузера*/   
+  -moz-border-radius: 5px; /*закругляем углы для Mozilla*/  
+  -webkit-border-radius: 5px; /*закругляем углы для Chrome, Safari*/   
+  border-radius: 5px; /*закругляем углы для остальных браузеров*/  
+  padding-right: 36px; /*отступ слева от ввода, чтобы текст не был на картинке(выбирать по размеру картинки)*/   
+  padding-left: 1.75rem !important;
+  font-size: 16px; /*размер шрифта*/
+  color: #092040 !important;
+}
 .accountMenu{
   margin-bottom: 50px;
 }
@@ -850,6 +891,9 @@ section h3{
 .blueText{
   color: #2841BC;
 }
+.profile{
+  display: none;
+}
 .programms .card .card-text{
   font-size: 16px !important;
 }
@@ -874,6 +918,9 @@ section h3{
   height: 90px;
   text-align: center;
   font-size: 18px;
+}
+.testsMenu{
+  margin-bottom: 1rem;
 }
 .testsMenu div{
   display: flex;
@@ -914,6 +961,11 @@ section h3{
   margin-left: 25px;
   font-size: 24px;
   color: #2841BC;
+}
+.video{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 /*passingTestPage*/
 #passingTestPage li p{
@@ -961,6 +1013,9 @@ section h3{
 }
 /**/
 @media (max-width: 992px){
+  iframe{
+    width: 100%;
+  }
   section h3{
       text-align: center;
       padding-top: 34px;
@@ -971,6 +1026,9 @@ section h3{
   }
   .aboutServicesCol{
     margin-bottom: 40px;
+  }
+  .breadcrumbNav{
+    display: none !important;
   }
   .captchaDiv{
     padding: 0;
@@ -1141,15 +1199,19 @@ section h3{
     margin-top: 20px;
   }
 
+  .accountMenuDiv{
+    padding: 0;
+  }
   .accountMenuItem{
     height: 80px;
-  }
-  .accountPageRow{
-    padding-bottom: 30px;
   }
 
   .testTitle, .programmTitle{
     white-space: normal;
+  }
+
+  .thisProgrammPagecontainer{
+    padding-bottom: 1rem;
   }
 
   .map{

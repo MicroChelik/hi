@@ -16,6 +16,14 @@
 	<?php
 		include('nav.php');
 	?>
+	<div aria-label="breadcrumb" class="breadcrumbNav">
+		<div class="container px-0">
+			<ol class="breadcrumb pl-0">
+		    	<li class="breadcrumb-item"><a href="index.php">Главная</a></li>
+	    		<li class="breadcrumb-item active" aria-current="page">Контакты</li>
+		 	</ol>
+		</div>
+	</div>
 	<div class="container">
 		<div class="row contactsRow">
 			<div class="col-lg-5">
@@ -59,7 +67,7 @@
 										<div class="col-12">
 											<textarea class="form-control" rows="3" placeholder='Ваш комментарий*'></textarea>
 										</div>
-										<div class="col-lg-6 col-12">
+										<div class="col-lg-6 col-12 recaptcha-wrapperr">
 											<div class="g-recaptcha captcha" data-sitekey="6Ldo2nsUAAAAAHtVQzC6Wlif4QzFftZHGoaq0EK7"></div>
 										</div>
 										<div class="col-lg-6 col-12">

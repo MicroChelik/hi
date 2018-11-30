@@ -34,7 +34,7 @@
 									<div class="col-12 form-group">
 										<input type="number" class="form-control" name="phoneNumber" placeholder="Ваш номер телефона *" required>
 									</div>
-									<div class="col-lg-6 col-12 captchaDiv"><div class="g-recaptcha captcha" data-sitekey="6Ldo2nsUAAAAAHtVQzC6Wlif4QzFftZHGoaq0EK7"></div></div>						
+									<div class="col-lg-6 col-12 captchaDiv recaptcha-wrapper"><div class="g-recaptcha captcha" data-sitekey="6Ldo2nsUAAAAAHtVQzC6Wlif4QzFftZHGoaq0EK7"></div></div>						
 									<div class="col-lg-6 col-12">
 										<p class="personalInformation">Нажимая на кнопку, вы даете свое согласие на обработку<br class="d-none d-lg-block">персональных данных. <a href="" target="blank" rel="noopener noreferrer">Узнать больше</a></p>
 									</div>
@@ -67,7 +67,7 @@
 									<div class="col-12 form-group">
 										<input type="number" class="form-control" name="phoneNumber" placeholder="Ваш номер телефона *" required>
 									</div>
-									<div class="col-lg-6 col-12 captchaDiv"><div class="g-recaptcha captcha" data-sitekey="6Ldo2nsUAAAAAHtVQzC6Wlif4QzFftZHGoaq0EK7"></div></div>						
+									<div class="col-lg-6 col-12 captchaDiv recaptcha-wrapper"><div class="g-recaptcha captcha" data-sitekey="6Ldo2nsUAAAAAHtVQzC6Wlif4QzFftZHGoaq0EK7"></div></div>						
 									<div class="col-lg-6 col-12">
 										<p class="personalInformation">Нажимая на кнопку, вы даете свое согласие на обработку<br class="d-none d-lg-block">персональных данных. <a href="" target="blank" rel="noopener noreferrer">Узнать больше</a></p>
 									</div>

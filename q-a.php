@@ -16,6 +16,14 @@
 	<?php
 		include('nav.php');
 	?>
+	<div aria-label="breadcrumb" class="breadcrumbNav">
+		<div class="container px-0">
+			<ol class="breadcrumb pl-0">
+		    	<li class="breadcrumb-item"><a href="index.php">Главная</a></li>
+	    		<li class="breadcrumb-item active" aria-current="page">Вопрос-ответ</li>
+		 	</ol>
+		</div>
+	</div>
 	<div class="container">
 		<div class="row">
 			<div class="accordion" id="accordionExample">

@@ -16,16 +16,24 @@
 	<?php
 		include('nav.php');
 	?>
+	<div aria-label="breadcrumb" class="breadcrumbNav">
+		<div class="container px-0">
+			<ol class="breadcrumb pl-0">
+				<li class="breadcrumb-item"><a href="index.php">Главная</a></li>
+				<li class="breadcrumb-item active" aria-current="page">Личный кабинет</li>
+			</ol>
+		</div>
+	</div>
 	<div class="container">
 		<div class="row accountPageRow">
 			<div class="col-lg-9">
 				<div class="row">
-					<div class="col-12">
+					<div class="col-12 accountMenuDiv">
 						<div class="d-flex accountMenu">
-							<div class="accountMenuItem active">
+							<div class="accountMenuItem active" id="availableProgramms">
 								<p>Доступные программы</p> 
 							</div>
-							<div class="accountMenuItem">
+							<div class="accountMenuItem" id="profile">
 								<p>Профиль</p>
 							</div>
 						</div>
@@ -200,6 +208,33 @@
 									<button class="blueBtn">Заказать</button>
 								</a>
 							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row profile">
+					<div class="col-lg-7">
+						<div class="form-group accountInputs">
+							<input type="text" class="form-control" placeholder="Компания: ООО “Электрон” ">
+						</div>
+					</div>
+					<div class="col-lg-7">
+						<div class="form-group accountInputs">
+							<input type="text" class="form-control" placeholder="Россия, г. Ижевск, БЦ «Нова Парк», ул. 10 лет Октября, дом 60, офис 309а">
+						</div>
+					</div>
+					<div class="col-lg-7">
+						<div class="form-group accountInputs">
+							<input type="text" class="form-control" placeholder="+ 7 (3412) 23-53-11">
+						</div>
+					</div>
+					<div class="col-lg-7">
+						<div class="form-group accountInputs">
+							<input type="email" class="form-control" placeholder="office@web-electron.ru">
+						</div>
+					</div>
+					<div class="col-lg-7">
+						<div class="form-group accountInputs">
+							<input type="text" class="form-control" placeholder="Изменить пароль">
 						</div>
 					</div>
 				</div>
