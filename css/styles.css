@@ -997,8 +997,8 @@ section h3{
   text-align: center;
 }
 .timerTime{
-  width: 100%;
-  height: 220px;
+  width: 212px;
+  height: 207px;
   background-image: url('../img/otherPages/passingTestPage/timer.png');
   background-repeat: no-repeat;
   background-size: cover;

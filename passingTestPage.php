@@ -98,7 +98,7 @@
 							А еще независимые государства объединены в целые кластеры себе подобных. Противоположная точка зрения подразумевает, что некоторые особенности внутренней политики заблокированы в рамках своих собственных рациональных ограничений.
 						</p>
 						<div class="form-group">
-							<input type="text" class="form-control" id="q3" placeholder="Ваш ответ">
+							<input type="text" class="form-control" id="q3" placeholder="Ваш ответ" required>
 						</div>
 					</li>
 					<li class="col-12">
@@ -160,10 +160,12 @@
 				</div>
 			</div>
 			<div class="col-lg-3">
-				<div class="col-12 timer">
-					<p>Время пошло</p>
-					<div class="timerTime">
-						<p>7:59</p>
+				<div class="row justify-content-center">
+					<div class="col-lg-12 col-8 timer">
+						<p>Время пошло:</p>
+						<div class="timerTime mx-auto">
+							<p class="timerText"></p>
+						</div>
 					</div>
 				</div>
 			</div>

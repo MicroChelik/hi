@@ -49,7 +49,9 @@
 								<a href="thisProgrammPage.php">
 									<button class="programmBtn">Пройти программу</button>
 								</a>
-								<button class="blueBtn">Пройти тест</button>
+								<a href="passingTestPage.php">
+									<button class="blueBtn">Пройти тест</button>
+								</a>
 							</div>
 						</div>
 					</div>
@@ -62,7 +64,9 @@
 								<a href="thisProgrammPage.php">
 									<button class="programmBtn">Пройти программу</button>
 								</a>
-								<button class="blueBtn">Пройти тест</button>
+								<a href="passingTestPage.php">
+									<button class="blueBtn">Пройти тест</button>
+								</a>
 							</div>
 						</div>
 					</div>
@@ -75,7 +79,9 @@
 								<a href="thisProgrammPage.php">
 									<button class="programmBtn">Пройти программу</button>
 								</a>
-								<button class="blueBtn">Пройти тест</button>
+								<a href="passingTestPage.php">
+									<button class="blueBtn">Пройти тест</button>
+								</a>
 							</div>
 						</div>
 					</div>
