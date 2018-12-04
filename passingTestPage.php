@@ -133,7 +133,7 @@
 						</form>
 					</li>
 				</ol>
-				<div class="col-lg-3 col-12 mx-lg-auto">
+				<div class="col-lg-4 col-12 mx-lg-auto">
 					<a data-fancybox data-animation-duration="700" data-src="#testModal" href="javascript:;">
 						<button class="blueBtn" type="submit">Узнать результат</button>
 					</a>

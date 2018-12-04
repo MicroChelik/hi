@@ -25,7 +25,9 @@
 							<p>ООО "Хай-Тандем" - стабильно развивающееся предприятие, которое осуществляет деятельность по обучению рабочих специалистов и радиационному контролю</p>
 						</div>
 						<div class="col-lg-4 col-12 d-flex">
-							<button class="lightBlueBtn">Подробнее</button>
+							<a href="aboutCompanyPage.php">
+								<button class="lightBlueBtn">Подробнее</button>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -35,7 +37,9 @@
 							<p>ООО "Хай-Тандем" - стабильно развивающееся предприятие, которое осуществляет деятельность по обучению рабочих специалистов и радиационному контролю</p>
 						</div>
 						<div class="col-lg-4 col-12 d-flex">
-							<button class="lightBlueBtn">Подробнее</button>
+							<a href="aboutCompanyPage.php">
+								<button class="lightBlueBtn">Подробнее</button>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -45,7 +49,9 @@
 							<p>ООО "Хай-Тандем" - стабильно развивающееся предприятие, которое осуществляет деятельность по обучению рабочих специалистов и радиационному контролю</p>
 						</div>
 						<div class="col-lg-4 col-12 d-flex">
-							<button class="lightBlueBtn">Подробнее</button>
+							<a href="aboutCompanyPage.php">
+								<button class="lightBlueBtn">Подробнее</button>
+							</a>
 						</div>
 					</div>
 				</div>

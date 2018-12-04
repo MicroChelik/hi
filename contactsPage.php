@@ -84,7 +84,7 @@
 				</div>
 			</div>
 			<div class="col-lg-7 map">
-				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa04519ca2914559135d78b1da6ed66455bebdc7d02c6a81d7356783aadc8dfed&amp;width=100%25&amp;height=681&amp;lang=ru_RU&amp;scroll=true"></script>
+				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa04519ca2914559135d78b1da6ed66455bebdc7d02c6a81d7356783aadc8dfed&amp;width=100%25&amp;height=100%&amp;lang=ru_RU&amp;scroll=true"></script>
 			</div>
 		</div>
 	</div>

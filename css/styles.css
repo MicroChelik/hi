@@ -102,24 +102,6 @@ section h3{
 .animated-modal .card{
   color: #111 !important;
 }
-.headSliderarrows{
-  position: relative;
-}
-.commentSLiderarrows{
-  position: relative;
-  top: -300px;
-}
-.certificatesSlider img{
-  margin: auto;
-}
-.certificatesSliderarrows{
-  position: relative;
-  top: -150px
-}
-.partnersSliderarrows{
-  position: relative;
-  top: -110px;
-}
 .blueBtn{
   background-color: #2841BC;
   color: #fff;
@@ -154,8 +136,16 @@ section h3{
 .commentSLider {
   padding-bottom: 80px;
 }
-.electronLogo{
-  margin-top: 1rem;
+.commentSLiderarrows{
+  position: relative;
+  top: -300px;
+}
+.certificatesSlider img{
+  margin: auto;
+}
+.certificatesSliderarrows{
+  position: relative;
+  top: -150px
 }
 .footerImgs{
   margin-bottom: 45px;
@@ -178,12 +168,17 @@ section h3{
 .footer-nav p{
   margin: 0 !important;
 }
+.headSliderarrows{
+  position: relative;
+}
 .headSlider .lightBlueBtn{
   width: 200px;
   height: 47px;
 }
 .lastRow{
   padding-bottom: 25px;
+  align-items: center;
+  margin-top: 1rem;
 }
 .lightBlueBtn{
   background-color: #009DFF;
@@ -200,7 +195,8 @@ section h3{
 .logo{
   background-image: url('../img/icons/logo.png');
   background-repeat: no-repeat;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
 .mailImg{
   float: left;
@@ -379,11 +375,29 @@ section h3{
   max-height: 100px;
   color: #fff;
 }
+
+.page-item-active{
+  
+}
+.page-link{
+  border: 0;
+  color: #2841BC;
+  font-size: 13px;
+}
+.pagePrevIcon{
+	transform: rotate(180deg);
+}
+
+
 .partnersSlider img{
   margin: auto;
 }
 .partnersSlider div{
   height: 200px;
+}
+.partnersSliderarrows{
+  position: relative;
+  top: -110px;
 }
 .personalInformation{
   font-size: 12px;
@@ -556,7 +570,7 @@ section h3{
   .consultation .row{
   	margin-bottom: 46px;
   }
-  #certificates{
+  #mainPage #certificates{
     padding-bottom: 50px;
   }
   #services .card-text{
@@ -566,9 +580,12 @@ section h3{
   #partners{
     padding-bottom: 15px;
   }
-  #partners h3{
+  #mainPage #partners h3{
   	padding-bottom: 0;
   	padding-top: 25px;
+  }
+  #partners h3{
+  	padding-bottom: 0;
   }
   #services .card{
     width: 372px;
@@ -578,6 +595,15 @@ section h3{
     background-image: url('../img/bg/consultation.png');
     background-repeat: no-repeat;
     background-size: contain;
+  }
+  /*pages*/
+  #thisProgrammPage .navigationButtons button{
+  	margin-bottom: 4rem;
+  	margin-top: 3rem;
+  }
+  .test button{
+  	margin-bottom: 4rem !important;
+  	margin-top: 3rem !important;
   }
 }
 /*index.php*/
@@ -627,6 +653,21 @@ section h3{
 }
 #servicesPage .consultation{
   background-image: none;
+  background: rgba(0, 157, 255, 0.1);
+}
+#servicesPage .consultation .row{
+  margin-bottom: 0;
+  padding-bottom: 30px;
+}
+#servicesPage .form-control{
+  background: rgba(0, 157, 255, 0.01);
+}
+#servicesPage #services{
+  padding-bottom: 70px;
+  padding-top: 70px;
+}
+#servicesPage #services h3{
+  display: none;
 }
 #servicesFirstRow{
   background-image: url('../img/otherPages/services/bg/textBg.png');
@@ -673,12 +714,18 @@ section h3{
   color: #092040;
 }
 /*servicePages*/
+.servicePage .aboutNews{
+  margin-bottom: 0px !important;
+}
 .servicePage .arrowAfterBLock:after{
   right: -25px !important;
   top: 93px !important;
 }
 .servicePage .servicesCards{
   display: none;
+}
+.servicePage .schemeOfWork h3{
+  padding-top: 40px !important;
 }
 .servicePage .scheme{
   padding-left: 15px !important;
@@ -687,6 +734,9 @@ section h3{
 }
 .servicePage .schemeNumber{
   height: 96px;
+}
+.servicePage .form-control{
+  background-color: rgba(0, 157, 255, 0.01);
 }
 .schemeNumber p{
   font-size: 72px;
@@ -767,7 +817,7 @@ section h3{
 #contactsPage .form-control,
 #thisEducationProgramm .form-control{
   margin-bottom: 1rem;
-  background: rgba(0, 157, 255, 0.05);
+  background: rgba(0, 157, 255, 0.005);
 }
 #thisEducationProgramm .greyText{
   color: rgba(9, 32, 64, 0.5);
@@ -1156,6 +1206,9 @@ section h3{
     display: block;
     top: 144px;
   }
+  .textBg{
+  	font-size: 30px;
+  }
 
   #servicesFirstRow{
     padding-top: 15px;
@@ -1213,10 +1266,13 @@ section h3{
   .thisProgrammPagecontainer{
     padding-bottom: 1rem;
   }
-
   .map{
     padding: 0;
     margin-top: 1rem;
+  }
+  .map,
+  .ymaps-2-1-71-map{
+  	height: 350px !important;
   }
   .contactsRow{
     padding: 0;
@@ -1224,6 +1280,31 @@ section h3{
   .contactsImg{
     margin-bottom: 1rem;
     margin-top: 1rem;
+  }
+}
+@media (min-width: 1550px) and (max-width: 1650px) {
+  #mainPage .consultation{
+  	background-position-x: -20%;
+  }
+}
+@media (min-width: 1430px) and (max-width: 1550px) {
+  #mainPage .consultation{
+  	background-position-x: -35%;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1429px) {
+  #mainPage .consultation{
+  	background-position-x: -65%;
+  }
+}
+@media (min-width: 1651px) and (max-width: 1799px) {
+  #mainPage .consultation{
+  	background-position-x: -15%;
+  }
+}
+@media (min-width: 1800px) and (max-width: 1890px) {
+  #mainPage .consultation{
+  	background-position-x: -5%;
   }
 }
 @media (min-width: 350px) and (max-width: 500px) {

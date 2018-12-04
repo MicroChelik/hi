@@ -34,6 +34,7 @@
 				<p>
 					Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен мощнейший источник радиации (300 микрорентген в час), сообщает "Радио России".
 					С помощью приборов радиационного контроля удалось установить, что источник излучения находится в автомашине одного из местных предприятий, прибывшей в порт с грузом металлолома. При более тщательном обследовании оказалось, что среди прочего металла находился стержень, изготовленный из стронция, содержащего радиоактивный изотоп.
+					<a class="cardTagA" href="thisNewsPage.php">Читать далее</a>
 				</p>
 			</div>
 		</div>
@@ -43,7 +44,7 @@
 					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
 					<div class="card-body">
 						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
-						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="	cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
 					</div>
 				</div>
 			</div>
@@ -52,7 +53,7 @@
 					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
 					<div class="card-body">
 						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
-						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="	cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
 					</div>
 				</div>
 			</div>
@@ -61,7 +62,7 @@
 					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
 					<div class="card-body">
 						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
-						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="	cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
 					</div>
 				</div>
 			</div>
@@ -70,7 +71,7 @@
 					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
 					<div class="card-body">
 						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
-						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="	cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
 					</div>
 				</div>
 			</div>
@@ -79,7 +80,7 @@
 					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
 					<div class="card-body">
 						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
-						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="	cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
 					</div>
 				</div>
 			</div>
@@ -88,7 +89,7 @@
 					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
 					<div class="card-body">
 						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
-						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="	cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
 					</div>
 				</div>
 			</div>
@@ -97,7 +98,7 @@
 					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
 					<div class="card-body">
 						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
-						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="	cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
 					</div>
 				</div>
 			</div>
@@ -106,7 +107,7 @@
 					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
 					<div class="card-body">
 						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
-						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="	cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
 					</div>
 				</div>
 			</div>
@@ -115,7 +116,7 @@
 					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
 					<div class="card-body">
 						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
-						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="	cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
 					</div>
 				</div>
 			</div>
@@ -124,7 +125,7 @@
 					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
 					<div class="card-body">
 						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
-						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="	cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
 					</div>
 				</div>
 			</div>
@@ -133,7 +134,7 @@
 					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
 					<div class="card-body">
 						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
-						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="	cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
 					</div>
 				</div>
 			</div>
@@ -142,12 +143,32 @@
 					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
 					<div class="card-body">
 						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
-						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="	cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
 					</div>
 				</div>
 			</div>
 		</div>
-		<h2>Здесь будет пагинация</h2>
+		<nav aria-label="Page navigation example">
+		  <ul class="pagination justify-content-center">
+		  	<li class="page-item page-item-first page-item-active"><a class="page-link" href="">1</a></li>
+		    <li class="page-item">
+				<a class="page-link" href="" aria-label="">
+					<span aria-hidden="true"><img src="img/icons/pageNext.png" class="pagePrevIcon"></span>
+				    <span class="sr-only"></span>
+			    </a> 
+		    </li>
+		    <li class="page-item"><a class="page-link" href="">2</a></li>
+		    <li class="page-item"><a class="page-link" href="">3</a></li>
+		    <li class="page-item"><a class="page-link" href="">4</a></li>
+		    <li class="page-item">
+		    	<a class="page-link" href="" aria-label="">
+			      <span aria-hidden="true"><img src="img/icons/pageNext.png"></span>
+			      <span class="sr-only"></span>
+			    </a>
+		    </li>
+		    <li class="page-item page-item-last"><a class="page-link" href="">50</a></li>
+		  </ul>
+		</nav>
 	</div>
 
 	<?php

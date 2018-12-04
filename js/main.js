@@ -164,3 +164,8 @@ $('#passingTestPage').ready(function() {
 	  countDown()
 	});
 });
+
+$('#news').ready(function() {
+	var pages = 50;
+	
+});

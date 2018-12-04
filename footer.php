@@ -93,17 +93,19 @@
 					<a data-fancybox data-animation-duration="700" data-src="#callBackModal" href="javascript:;">
 						<button class="lightBlueBtn">Обратный звонок</button>
 					</a>
-					<a href="https://xn--18-mlcudogpr0i.xn--p1ai/" target="blank" rel="noopener noreferrer">
-						<img src="img/electronLogo.png" class="electronLogo">
-					</a>
 				</div>
 			</div>
 			<div class="row d-lg-flex d-none lastRow">
 				<div class="col-2">
-					<p>© 2014 Авторские права</p>
+					<p class="m-0">© 2014 Авторские права</p>
 				</div>
 				<div class="col-3 offset-lg-2">
 					<a href="">Политика конфиденциальности</a>
+				</div>
+				<div class="col-3 offset-lg-2">
+					<a href="https://xn--18-mlcudogpr0i.xn--p1ai/" target="blank" rel="noopener noreferrer">
+						<img src="img/electronLogo.png" class="electronLogo">
+					</a>
 				</div>
 			</div>
 			<div class="row d-lg-none d-flex mobileFooter">
