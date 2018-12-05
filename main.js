@@ -16,12 +16,10 @@ $(document).ready(function() {
 	});
 
 	$('.testMenuItem').click(function(){
-		console.log('raz');
-		if($(this).find(".testMenuItemToggle").css('display') == "none"){
-			$(this).find(".testMenuItemToggle").slideToggle( "slow" );
+		if($('.testMenuItemToggle').css('display') == "none"){
+			$(this).find(".testMenuItemToggle").css('display', 'block');
 		} else {
-			$(this).find(".testMenuItemToggle").slideToggle( "slow" );
-			console.log('dva');
+			$(this).find(".testMenuItemToggle").css('display', 'none');
 		}
 	});
 
@@ -128,21 +126,7 @@ $(document).ready(function() {
     captchaResized = false;
     captchaWidth = 304;
     captchaHeight = 78;
-    captchaWrapper = $('#contactsPageCaptcha');
-    captchaElements = $('#rc-imageselect, .g-recaptcha');
-
-    resizeCaptcha();
-    $(window).on('resize', function() {
-            resizeCaptcha();
-        });
-    });
-
-    $(function(){
-    // global variables
-    captchaResized = false;
-    captchaWidth = 304;
-    captchaHeight = 78;
-    captchaWrapper = $('#thisEducationProgrammCaptcha');
+    captchaWrapper = $('.recaptcha-wrapperr');
     captchaElements = $('#rc-imageselect, .g-recaptcha');
 
     resizeCaptcha();
@@ -164,16 +148,8 @@ $(document).ready(function() {
             captchaWrapper.height(captchaHeight * scale);
             if (captchaResized == false) captchaResized = true;
         }
-    };
+    }
 
-    $('#demo').pagination({
-	    dataSource: [1, 2, 3, 4, 5, 6, 7],
-	    callback: function(data, pagination) {
-	        // template method of yourself
-	        var html = template(data);
-	        dataContainer.html(html);
-	    }
-	});
 
 
 

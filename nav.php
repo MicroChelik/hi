@@ -2,8 +2,10 @@
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-lg-3 logo">
-					<h2>Хай-Тандем</h2>
-					<span>Учебный центр</span>
+					<a href="index.php">
+						<h2>Хай-Тандем</h2>
+						<span>Учебный центр</span>
+					</a>
 				</div>
 				<div class="col-lg-2 offset-lg-2">
 					<img src="img/icons/mail.png">

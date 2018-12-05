@@ -252,25 +252,60 @@
 							<p>Пройденые тесты<br><span>за последний месяц</span></p>
 						</div>
 						<div class="testMenuItem">
-							<p>Название программы<br>в две строчки</p>
+							<p class="testMenuItemTitle">Название программы<br>в две строчки</p>
+							<p class="testMenuItemText testMenuItemToggle">Пройден тест: <span>6 часов 35 минут</span></p>
+							<p class="testMenuItemText testMenuItemToggle">Кол-во правильных ответов: <span>78 из 80 </span><br>Пройден тест: <span>05.02.2017</span></p>
+							<div class="testMenuItemResult testMenuItemToggle">
+								<p class="testMenuItemResultTitle">Поздравляем</p><p>тест пройден, для дальнейших действий свяжитесь с администратором</p>
+							</div>
 						</div>
-						<div class="testMenuItem testmenuItemBlue">
-							<p>Название программы<br>в две строчки</p>
+						<div class="testMenuItem testmenuItemFailTest">
+							<p class="testMenuItemTitle">Название программы<br>в две строчки</p>
+							<p class="testMenuItemText testMenuItemToggle">Пройден тест: <span>6 часов 35 минут</span></p>
+							<p class="testMenuItemText testMenuItemToggle">Кол-во правильных ответов: <span>78 из 80 </span><br>Пройден тест: <span>05.02.2017</span></p>
+							<div class="testMenuItemResult testMenuItemToggle">
+								<p class="testMenuItemResultTitle">К сожалению </p><p>тест не пройден, повторите учебный материал и пройдите тест еще раз</p>
+							</div>
 						</div>
-						<div class="testMenuItem testmenuItemBlue">
-							<p>Название программы<br>в две строчки</p>
+						<div class="testMenuItem testmenuItemFailTest">
+							<p class="testMenuItemTitle">Название программы<br>в две строчки</p>
+							<p class="testMenuItemText testMenuItemToggle">Пройден тест: <span>6 часов 35 минут</span></p>
+							<p class="testMenuItemText testMenuItemToggle">Кол-во правильных ответов: <span>78 из 80 </span><br>Пройден тест: <span>05.02.2017</span></p>
+							<div class="testMenuItemResult testMenuItemToggle">
+								<p class="testMenuItemResultTitle">К сожалению </p><p>тест не пройден, повторите учебный материал и пройдите тест еще раз</p>
+							</div>
 						</div>
 						<div class="testMenuItem">
-							<p>Название программы<br>в две строчки</p>
+							<p class="testMenuItemTitle">Название программы<br>в две строчки</p>
+							<p class="testMenuItemText testMenuItemToggle">Пройден тест: <span>6 часов 35 минут</span></p>
+							<p class="testMenuItemText testMenuItemToggle">Кол-во правильных ответов: <span>78 из 80 </span><br>Пройден тест: <span>05.02.2017</span></p>
+							<div class="testMenuItemResult testMenuItemToggle">
+								<p class="testMenuItemResultTitle">Поздравляем</p><p>тест пройден, для дальнейших действий свяжитесь с администратором</p>
+							</div>
 						</div>
 						<div class="testMenuItem">
-							<p>Название программы<br>в две строчки</p>
+							<p class="testMenuItemTitle">Название программы<br>в две строчки</p>
+							<p class="testMenuItemText testMenuItemToggle">Пройден тест: <span>6 часов 35 минут</span></p>
+							<p class="testMenuItemText testMenuItemToggle">Кол-во правильных ответов: <span>78 из 80 </span><br>Пройден тест: <span>05.02.2017</span></p>
+							<div class="testMenuItemResult testMenuItemToggle">
+								<p class="testMenuItemResultTitle">Поздравляем</p><p>тест пройден, для дальнейших действий свяжитесь с администратором</p>
+							</div>
 						</div>
-						<div class="testMenuItem testmenuItemBlue">
-							<p>Название программы<br>в две строчки</p>
+						<div class="testMenuItem testmenuItemFailTest">
+							<p class="testMenuItemTitle">Название программы<br>в две строчки</p>
+							<p class="testMenuItemText testMenuItemToggle">Пройден тест: <span>6 часов 35 минут</span></p>
+							<p class="testMenuItemText testMenuItemToggle">Кол-во правильных ответов: <span>78 из 80 </span><br>Пройден тест: <span>05.02.2017</span></p>
+							<div class="testMenuItemResult testMenuItemToggle">
+								<p class="testMenuItemResultTitle">К сожалению </p><p>тест не пройден, повторите учебный материал и пройдите тест еще раз</p>
+							</div>
 						</div>
-						<div class="testMenuItem testmenuItemBlue">
-							<p>Название программы<br>в две строчки</p>
+						<div class="testMenuItem testmenuItemFailTest">
+							<p class="testMenuItemTitle">Название программы<br>в две строчки</p>
+							<p class="testMenuItemText testMenuItemToggle">Пройден тест: <span>6 часов 35 минут</span></p>
+							<p class="testMenuItemText testMenuItemToggle">Кол-во правильных ответов: <span>78 из 80 </span><br>Пройден тест: <span>05.02.2017</span></p>
+							<div class="testMenuItemResult testMenuItemToggle">
+								<p class="testMenuItemResultTitle">К сожалению </p><p>тест не пройден, повторите учебный материал и пройдите тест еще раз</p>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -280,12 +315,6 @@
 	<?php
 		include('footer.php');
 	?>
-<div id="toTop" ><img src="img/icons/top.png"></div>
-	<script src="js/main.js"></script>
-	<script src="js/jquery.fancybox.min.js"></script>
-	<script type="text/javascript" src="js/slick.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="js/bootstrap.min.js"></script>
-</body>
-</body>
-</html>
+	<?php
+		include('htmlEndBody.php');
+	?>

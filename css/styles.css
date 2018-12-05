@@ -198,6 +198,9 @@ section h3{
   padding-bottom: 5px;
   padding-top: 5px;
 }
+.logo a{
+  color: #fff !important;
+}
 .mailImg{
   float: left;
   padding-top: 4px;
@@ -972,7 +975,7 @@ section h3{
 .testsMenu{
   margin-bottom: 1rem;
 }
-.testsMenu div{
+.testsMenuTitle{
   display: flex;
 }
 .testsMenu p{
@@ -983,11 +986,45 @@ section h3{
   color: rgba(255, 255, 255, 0.7);
 }
 .testMenuItem{
+  display: block !important;
   background-color: rgba(0, 157, 255, 0.2); 
   border: 1px solid rgba(40, 65, 188, 0.2);
-  height: 76px;
+  min-height: 76px;
+  cursor: pointer;
 }
-.testmenuItemBlue{
+.testMenuItemResult{
+  background: #F51A1D;
+  color: #fff !important;
+  width: 80%;
+  margin-left: 25px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.testMenuItemResult p{
+ font-size: 12px !important;
+ margin-left: 0px !important;
+ padding-bottom: 10px;
+}
+.testMenuItemResult .testMenuItemResultTitle{
+ font-size: 18px !important;
+ padding-bottom: 0px;
+ padding-top: 5px;
+}
+.testMenuItemText{
+  font-size: 12px;
+}
+.testMenuItemText span{
+  color: #2841BC;
+}
+.testMenuItemTitle{
+  padding-top: 14px;
+  padding-bottom: 5px;
+}
+.testMenuItemToggle{
+  display: none;
+}
+.testmenuItemFailTest{
   background-color: rgba(40, 65,  188, 0.2) !important;
 }
 .testMenuItem p{
@@ -1193,6 +1230,10 @@ section h3{
     height: 70px;
   }
   /*pages*/
+  #mainPage .headSlider .lightBlueBtn{
+  	margin-left: 25px;
+  }
+
   #aboutConmpanyPage .scheme{
     margin-bottom: 2rem;
   }
