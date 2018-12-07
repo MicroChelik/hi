@@ -149,6 +149,8 @@
 			</div>
 		</div>
 		<div id="demo"></div>
+		<div id="data-container"></div>
+		<div id="pagination-container"></div>
 		<nav aria-label="Page navigation example">
 		  <ul class="pagination justify-content-center">
 		  	<li class="page-item page-item-first page-item-active"><a class="page-link" href="">1</a></li>

@@ -130,6 +130,10 @@ section h3{
   color: #fff !important;
   border: 0;
 }
+.card-img-top{
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
 .callReceptionText{
   margin-left: 30px;
 }
@@ -379,6 +383,10 @@ section h3{
   color: #fff;
 }
 
+.navMailDiv{
+  text-align: end;
+}
+
 .page-item-active{
   
 }
@@ -417,6 +425,12 @@ section h3{
 }
 .phoneNumbers{
   padding-top: 10px
+}
+.servicesCards .card{
+  border-radius: 0px;
+}
+.slick-arrow{
+  cursor: pointer;
 }
 #aboutCompany{
   background-image: url('../img/bg/sliderBg.png');
@@ -908,7 +922,8 @@ section h3{
   height: 55px !important;
   background-image: url(../img/otherPages/accountPage/inputIcon.png);   
   background-repeat: no-repeat; /*Убираем повтор изображения*/   
-  background-position: 435px; /*Позиционируем*/   
+  background-position-x: 98%;
+  background-position-y: 50%; /*Позиционируем*/   
   outline: none; /*убираем стандартную обводку браузера*/   
   -moz-border-radius: 5px; /*закругляем углы для Mozilla*/  
   -webkit-border-radius: 5px; /*закругляем углы для Chrome, Safari*/   

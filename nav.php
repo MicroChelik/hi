@@ -7,7 +7,7 @@
 						<span>Учебный центр</span>
 					</a>
 				</div>
-				<div class="col-lg-2 offset-lg-2">
+				<div class="col-lg-3 offset-lg-1 navMailDiv">
 					<img src="img/icons/mail.png">
 					<span>haidarov_f@mail.ru</span>
 				</div>

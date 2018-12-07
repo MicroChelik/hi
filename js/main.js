@@ -16,12 +16,10 @@ $(document).ready(function() {
 	});
 
 	$('.testMenuItem').click(function(){
-		console.log('raz');
 		if($(this).find(".testMenuItemToggle").css('display') == "none"){
 			$(this).find(".testMenuItemToggle").slideToggle( "slow" );
 		} else {
 			$(this).find(".testMenuItemToggle").slideToggle( "slow" );
-			console.log('dva');
 		}
 	});
 
@@ -175,7 +173,14 @@ $(document).ready(function() {
 	    }
 	});
 
-
+    $('#pagination-container').pagination({
+	    dataSource: [1, 2, 3, 4, 5, 6, 7, ...  195],
+	    callback: function(data, pagination) {
+	        // template method of yourself
+	        var html = template(data);
+	        $('#data-container').html(html);
+	    }
+	})
 
 });
 
