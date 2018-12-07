@@ -164,23 +164,7 @@ $(document).ready(function() {
         }
     };
 
-    $('#demo').pagination({
-	    dataSource: [1, 2, 3, 4, 5, 6, 7],
-	    callback: function(data, pagination) {
-	        // template method of yourself
-	        var html = template(data);
-	        dataContainer.html(html);
-	    }
-	});
-
-    $('#pagination-container').pagination({
-	    dataSource: [1, 2, 3, 4, 5, 6, 7, ...  195],
-	    callback: function(data, pagination) {
-	        // template method of yourself
-	        var html = template(data);
-	        $('#data-container').html(html);
-	    }
-	})
+    
 
 });
 
@@ -205,8 +189,92 @@ $('#passingTestPage').ready(function() {
 	});
 });
 
-
 $('#news').ready(function() {
-	var pages = 50;
-	
+	$(function(){
+	    news = $('.news');
+	    newses = [];
+	    $(news).each(function(index, newsBlock) {
+	      newses.push(newsBlock);
+	    });
+	    $("#pager").pagination({
+	      pageSize: 12,
+	      dataSource: newses,
+	      callback: function(data, pagination) {
+	        var html = simpleTemplating(data);
+	        $('#data').html(html);
+	      },
+	      showNavigator: true,
+	      className: 'paginationjs-theme-blue paginationjs-small'
+	    });
+
+	    function simpleTemplating(data) {
+	        var html = '';
+	        $.each(data, function(index, item){
+	          var content = item.outerHTML;
+	            html += content;
+	        });
+	        html += '';
+	        return html;
+	    }
+	});
+});
+
+$('#q-a').ready(function() {
+	$(function(){
+	    question = $('.question');
+	    questions = [];
+	    $(question).each(function(index, questionCard) {
+	      questions.push(questionCard);
+	    });
+	    $("#pagerQuestions").pagination({
+	      pageSize: 8,
+	      dataSource: questions,
+	      callback: function(data, pagination) {
+	        var html = simpleTemplating(data);
+	        $('#accordionExample').html(html);
+	      },
+	      showNavigator: true,
+	      className: 'paginationjs-theme-blue paginationjs-small'
+	    });
+
+	    function simpleTemplating(data) {
+	        var html = '';
+	        $.each(data, function(index, item){
+	          var content = item.outerHTML;
+	            html += content;
+	        });
+	        html += '';
+	        return html;
+	    }
+	});
+});
+
+$('#commentsPage').ready(function() {
+	$(function(){
+	    comment = $('.comment');
+	    comments = [];
+	    $(comment).each(function(index, commentCard) {
+	      comments.push(commentCard);
+	    });
+	    $("#pagerComments").pagination({
+	      pageSize: 5,
+	      dataSource: comments,
+	      callback: function(data, pagination) {
+	        var html = simpleTemplating(data);
+	        $('#dataComments').html(html);
+	      },
+	      showNavigator: true,
+	      className: 'paginationjs-theme-blue paginationjs-small'
+	    });
+
+	    function simpleTemplating(data) {
+	        var html = '';
+	        $.each(data, function(index, item){
+	          var content = item.outerHTML;
+	            html += content;
+	        });
+	        html += '';
+	        return html;
+	    }
+	});
 });

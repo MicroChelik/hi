@@ -386,6 +386,12 @@ section h3{
 .navMailDiv{
   text-align: end;
 }
+.news{
+  margin-bottom: 17px;
+}
+.mainNews{
+  margin-bottom: 50px;
+}
 
 .page-item-active{
   
@@ -399,6 +405,33 @@ section h3{
 	transform: rotate(180deg);
 }
 
+.pagination{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-top: 60px;
+}
+.paginationjs{
+  font-family: 'NotoSerif' !important; 
+}
+.paginationjs.paginationjs-theme-blue .paginationjs-go-input>input[type=text], .paginationjs.paginationjs-theme-blue .paginationjs-pages li{
+  border: 0;
+}
+.paginationjs.paginationjs-theme-blue .paginationjs-pages li>a{
+  color: #2841BC;
+}
+.paginationjs.paginationjs-theme-blue .paginationjs-pages li.active>a{
+  background: #2841BC;
+}
+.paginationjs-nav{ 
+  display: none;
+}
+.paginationjs.paginationjs-theme-blue .paginationjs-pages li>a:hover{
+  background: #d9def7;
+}
+.paginationjs.paginationjs-theme-blue .paginationjs-pages li.active>a:hover{
+  background-color: #2841BC;
+}
 
 .partnersSlider img{
   margin: auto;
@@ -575,6 +608,13 @@ section h3{
   }
   .partnersSlider .my-dotsDark {
     bottom: -35px;
+  }
+  .pagination li{
+    width: 30px;
+    height: 30px;
+  }
+  .pagination a{
+    font-size: 13px;
   }
   #aboutCompany{
     height: 400px;

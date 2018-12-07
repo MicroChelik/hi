@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+	<link rel="stylesheet" href="http://pagination.js.org/dist/2.1.4/pagination.css">
 	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
 	<link rel="shortcut icon" href="/img/icons/favicon.png" type="image/png">
 	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
@@ -25,7 +26,7 @@
 		</div>
 	</div>
 	<div class="container">
-		<div class="row">
+		<div class="row mainNews">
 			<div class="col-12 topImg px-0">
 				<img src="img/otherPages/news/postImg/1.png" class="w-100">
 			</div>
@@ -38,8 +39,17 @@
 				</p>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-lg-3 col-md-6 col-12">
+		<div class="row d-none">
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">1 Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
 				<div class="card">
 					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
 					<div class="card-body">
@@ -48,7 +58,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6 col-12">
+			<div class="col-lg-3 col-md-6 col-12 news">
 				<div class="card">
 					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
 					<div class="card-body">
@@ -57,7 +67,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6 col-12">
+			<div class="col-lg-3 col-md-6 col-12 news">
 				<div class="card">
 					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
 					<div class="card-body">
@@ -66,7 +76,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6 col-12">
+			<div class="col-lg-3 col-md-6 col-12 news">
 				<div class="card">
 					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
 					<div class="card-body">
@@ -75,7 +85,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6 col-12">
+			<div class="col-lg-3 col-md-6 col-12 news">
 				<div class="card">
 					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
 					<div class="card-body">
@@ -84,7 +94,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6 col-12">
+			<div class="col-lg-3 col-md-6 col-12 news">
 				<div class="card">
 					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
 					<div class="card-body">
@@ -93,7 +103,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6 col-12">
+			<div class="col-lg-3 col-md-6 col-12 news">
 				<div class="card">
 					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
 					<div class="card-body">
@@ -102,7 +112,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6 col-12">
+			<div class="col-lg-3 col-md-6 col-12 news">
 				<div class="card">
 					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
 					<div class="card-body">
@@ -111,7 +121,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6 col-12">
+			<div class="col-lg-3 col-md-6 col-12 news">
 				<div class="card">
 					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
 					<div class="card-body">
@@ -120,7 +130,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6 col-12">
+			<div class="col-lg-3 col-md-6 col-12 news">
 				<div class="card">
 					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
 					<div class="card-body">
@@ -129,7 +139,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6 col-12">
+			<div class="col-lg-3 col-md-6 col-12 news">
 				<div class="card">
 					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
 					<div class="card-body">
@@ -138,40 +148,1523 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6 col-12">
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">2 Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
 				<div class="card">
 					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
 					<div class="card-body">
 						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">3 Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">1 Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">2 Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">3 Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">1 Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">2 Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">3 Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">1 Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">2 Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">3 Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">1 Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">2 Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Во Владивостоке обнаружен мощный источник радиации</h5>
+						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 news">
+				<div class="card">
+					<img class="card-img-top" src="img/otherPages/news/postImg/2.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">3 Во Владивостоке обнаружен мощный источник радиации</h5>
 						<p class="card-text">Чрезвычайное происшествие произошло во Владивостоке. В морском порту города был обнаружен... <a class="cardTagA" href="thisNewsPage.php">Читать далее</a></p>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div id="demo"></div>
-		<div id="data-container"></div>
-		<div id="pagination-container"></div>
-		<nav aria-label="Page navigation example">
-		  <ul class="pagination justify-content-center">
-		  	<li class="page-item page-item-first page-item-active"><a class="page-link" href="">1</a></li>
-		    <li class="page-item">
-				<a class="page-link" href="" aria-label="">
-					<span aria-hidden="true"><img src="img/icons/pageNext.png" class="pagePrevIcon"></span>
-				    <span class="sr-only"></span>
-			    </a> 
-		    </li>
-		    <li class="page-item"><a class="page-link" href="">2</a></li>
-		    <li class="page-item"><a class="page-link" href="">3</a></li>
-		    <li class="page-item"><a class="page-link" href="">4</a></li>
-		    <li class="page-item">
-		    	<a class="page-link" href="" aria-label="">
-			      <span aria-hidden="true"><img src="img/icons/pageNext.png"></span>
-			      <span class="sr-only"></span>
-			    </a>
-		    </li>
-		    <li class="page-item page-item-last"><a class="page-link" href="">50</a></li>
-		  </ul>
-		</nav>
+		<div id="data" class="row"></div>
+		<div class="row">
+			<div id="pager" class="pagination"></div>
+		</div>
 	</div>
 
 	<?php
